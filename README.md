@@ -27,7 +27,7 @@
 💬 Feel free to **connect & discuss tech, open-source, and new ideas!**  
 
 📬 **How to reach me:**  
-🔗 [LinkedIn](www.linkedin.com/in/utkarsh-patrikar) | 📧 utkarshpatrikar@gmail.com | 🌐 [Portfolio](utkarshpatrikar.vercel.app)  
+🔗 [LinkedIn](www.linkedin.com/in/utkarsh-patrikar) | 📧 utkarshpatrikar@gmail.com | 🌐 [Portfolio](https://utkarshpatrikar.vercel.app)  
 
 ---
 
