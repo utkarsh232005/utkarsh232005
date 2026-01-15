@@ -1,9 +1,25 @@
 <h1 align="center">👋 Hey there, I'm Utkarsh Patrikar!</h1>
 <h3 align="center">Full-Stack Developer | DevOps & Cloud Enthusiast | Tech Explorer 🌍</h3>
 
-<p align="center">
-🚀 Passionate about building scalable web apps, cloud-native systems, and DevOps automation pipelines.
+<h3 align="left">👨‍💻 About Me</h3>
+
+<p>
+  💡 Passionate <strong>Software Developer</strong> with a love for 
+  <strong>Web Development</strong> and a growing enthusiasm for 
+  <strong>DevOps & Cloud Technologies</strong>. I enjoy building scalable, 
+  efficient web applications and diving into automation, cloud deployments, 
+  and CI/CD pipelines.
 </p>
+
+<p>
+  🔭 Currently working on <strong>Full-Stack Web Apps & Cloud-Based Solutions</strong>
+  <br>
+  ⚙️ Exploring <strong>Docker, Kubernetes, AWS, and CI/CD workflows</strong>
+  <br>
+  🌱 Constantly learning and improving my skills in 
+  <strong>modern web & cloud technologies</strong>
+</p>
+
 
 ---
 
