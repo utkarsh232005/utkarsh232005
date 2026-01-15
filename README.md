@@ -16,9 +16,31 @@
 ---
 
 ### 🧰 Tech & Tools
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,python,react,next,tailwind,nodejs,docker,kubernetes,githubactions,linux,nginx,aws,gcp,mongodb,mysql,firebase,git,vscode,figma&perline=9" height="40"/>
+<p align="left">
+  <!-- Languages -->
+  <img src="https://skillicons.dev/icons?i=js,ts,python,html,css" height="35"/>
+  <br/>
+
+  <!-- Frameworks -->
+  <img src="https://skillicons.dev/icons?i=react,next,tailwind,nodejs" height="35"/>
+  <br/>
+
+  <!-- DevOps -->
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,linux,nginx" height="35"/>
+  <br/>
+
+  <!-- Cloud -->
+  <img src="https://skillicons.dev/icons?i=aws,gcp" height="35"/>
+  <br/>
+
+  <!-- Databases -->
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,firebase" height="35"/>
+  <br/>
+
+  <!-- Tools -->
+  <img src="https://skillicons.dev/icons?i=git,vscode,figma" height="35"/>
 </p>
+
 
 ---
 
