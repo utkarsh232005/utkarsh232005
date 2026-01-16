@@ -65,7 +65,7 @@
   <a href="https://linkedin.com/in/utkarsh-patrikar">LinkedIn</a> •
   <a href="https://github.com/utkarsh232005">GitHub</a> •
   <a href="mailto:utkarshpatrikar@gmail.com">Email</a> •
-  <a href="https://utkarshpatrikar.vercel.app">Portfolio</a>
+  <a href="https://utkarshpatrikar.me">Portfolio</a>
 </p>
 
 ---
