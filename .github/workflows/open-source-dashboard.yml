@@ -55,10 +55,11 @@ jobs:
             (clean_lines($include)) as $allow
             | (clean_lines($exclude)) as $deny
             | .items = ((.items // []) | map(
-                select(
-                  (($deny | index(.html_url)) == null)
-                  and (($allow | length) == 0 or ($allow | index(.html_url)) != null)
-                )
+                . as $pr
+                | select(
+                    (($deny | index($pr.html_url)) == null)
+                    and (($allow | length) == 0 or ($allow | index($pr.html_url)) != null)
+                  )
               ))
             ' merged_prs.json > merged_prs_filtered.json
 
@@ -75,10 +76,11 @@ jobs:
             (clean_lines($include)) as $allow
             | (clean_lines($exclude)) as $deny
             | .items = ((.items // []) | map(
-                select(
-                  (($deny | index(.html_url)) == null)
-                  and (($allow | length) == 0 or ($allow | index(.html_url)) != null)
-                )
+                . as $pr
+                | select(
+                    (($deny | index($pr.html_url)) == null)
+                    and (($allow | length) == 0 or ($allow | index($pr.html_url)) != null)
+                  )
               ))
             ' active_prs.json > active_prs_filtered.json
 
