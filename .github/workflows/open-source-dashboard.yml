@@ -35,17 +35,64 @@ jobs:
             -H "X-GitHub-Api-Version: 2022-11-28" \
             "https://api.github.com/search/issues?q=author:utkarsh232005+type:pr+is:open&per_page=5" > active_prs.json
 
+      - name: Ensure filter files exist
+        run: |
+          touch .github/dashboard-include-prs.txt
+          touch .github/dashboard-exclude-prs.txt
+
+      - name: Apply manual PR filters
+        run: |
+          jq \
+            --rawfile include .github/dashboard-include-prs.txt \
+            --rawfile exclude .github/dashboard-exclude-prs.txt \
+            '
+            def clean_lines($s):
+              $s
+              | split("\n")
+              | map(gsub("^\\s+|\\s+$"; ""))
+              | map(select(length > 0 and (startswith("#") | not)));
+
+            (clean_lines($include)) as $allow
+            | (clean_lines($exclude)) as $deny
+            | .items |= map(
+                select(
+                  (($deny | index(.html_url)) == null)
+                  and (($allow | length) == 0 or ($allow | index(.html_url)) != null)
+                )
+              )
+            ' merged_prs.json > merged_prs_filtered.json
+
+          jq \
+            --rawfile include .github/dashboard-include-prs.txt \
+            --rawfile exclude .github/dashboard-exclude-prs.txt \
+            '
+            def clean_lines($s):
+              $s
+              | split("\n")
+              | map(gsub("^\\s+|\\s+$"; ""))
+              | map(select(length > 0 and (startswith("#") | not)));
+
+            (clean_lines($include)) as $allow
+            | (clean_lines($exclude)) as $deny
+            | .items |= map(
+                select(
+                  (($deny | index(.html_url)) == null)
+                  and (($allow | length) == 0 or ($allow | index(.html_url)) != null)
+                )
+              )
+            ' active_prs.json > active_prs_filtered.json
+
       - name: Generate dashboard
         run: |
           echo "### 🚀 Recent Open Source Contributions" > dashboard.md
           echo "" >> dashboard.md
 
           echo "#### ✅ Merged Pull Requests" >> dashboard.md
-          jq -r '.items[] | "- [" + .title + "](" + .html_url + ") in **" + (.repository_url | split("/") | .[-2] + "/" + .[-1]) + "**"' merged_prs.json >> dashboard.md
+          jq -r '.items[] | "- [" + .title + "](" + .html_url + ") in **" + (.repository_url | split("/") | .[-2] + "/" + .[-1]) + "**"' merged_prs_filtered.json >> dashboard.md
 
           echo "" >> dashboard.md
           echo "#### 🔄 Active Pull Requests" >> dashboard.md
-          jq -r '.items[] | "- [" + .title + "](" + .html_url + ") in **" + (.repository_url | split("/") | .[-2] + "/" + .[-1]) + "**"' active_prs.json >> dashboard.md
+          jq -r '.items[] | "- [" + .title + "](" + .html_url + ") in **" + (.repository_url | split("/") | .[-2] + "/" + .[-1]) + "**"' active_prs_filtered.json >> dashboard.md
 
           echo "" >> dashboard.md
           echo "_Last updated: $(date)_ " >> dashboard.md
