@@ -3,3 +3,5 @@
 # Add one PR URL per line.
 # Example:
 # https://github.com/fossology/fossology/pull/1234
+https://github.com/jenkins-infra/jenkins.io/pull/8948
+https://github.com/jenkins-infra/jenkins.io/pull/8929
