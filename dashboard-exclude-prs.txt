@@ -1,0 +1,4 @@
+# Optional denylist of PR URLs to hide from dashboard.
+# Add one PR URL per line.
+# Example:
+# https://github.com/fossology/fossology/pull/5678
