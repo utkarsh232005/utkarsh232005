@@ -56,10 +56,6 @@
 
 #### ✅ Merged Pull Requests
 - [Fix deprecated "IRC" link text in developer tutorial extend.adoc](https://github.com/jenkins-infra/jenkins.io/pull/8948) in **jenkins-infra/jenkins.io**
-- [Delete citation section from README](https://github.com/Rishiraj-Pathak-27/LLM-Hallucination-Detection-Correction-Using-RAG/pull/5) in **Rishiraj-Pathak-27/LLM-Hallucination-Detection-Correction-Using-RAG**
-- [Update author list in README citation](https://github.com/Rishiraj-Pathak-27/LLM-Hallucination-Detection-Correction-Using-RAG/pull/4) in **Rishiraj-Pathak-27/LLM-Hallucination-Detection-Correction-Using-RAG**
-- [Enhance README with hallucination detection process and system overview](https://github.com/Rishiraj-Pathak-27/LLM-Hallucination-Detection-Correction-Using-RAG/pull/3) in **Rishiraj-Pathak-27/LLM-Hallucination-Detection-Correction-Using-RAG**
-- [Implement hallucination detection system and optimize UI components](https://github.com/Rishiraj-Pathak-27/LLM-Hallucination-Detection-Correction-Using-RAG/pull/2) in **Rishiraj-Pathak-27/LLM-Hallucination-Detection-Correction-Using-RAG**
 
 #### 🔄 Active Pull Requests
 - [docs: remove stale WIP markers from developer docs](https://github.com/jenkins-infra/jenkins.io/pull/8929) in **jenkins-infra/jenkins.io**

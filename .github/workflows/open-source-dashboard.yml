@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Install jq
         run: sudo apt-get install jq
@@ -37,16 +37,16 @@ jobs:
 
       - name: Ensure filter files exist
         run: |
-          touch .github/dashboard-include-prs.txt
-          touch .github/dashboard-exclude-prs.txt
-          touch .github/dashboard-exclude-repos.txt
+          touch dashboard-include-prs.txt
+          touch dashboard-exclude-prs.txt
+          touch dashboard-exclude-repos.txt
 
       - name: Apply manual PR filters
         run: |
           jq \
-            --rawfile include .github/dashboard-include-prs.txt \
-            --rawfile exclude .github/dashboard-exclude-prs.txt \
-            --rawfile exclude_repos .github/dashboard-exclude-repos.txt \
+            --rawfile include dashboard-include-prs.txt \
+            --rawfile exclude dashboard-exclude-prs.txt \
+            --rawfile exclude_repos dashboard-exclude-repos.txt \
             '
             def clean_lines($s):
               $s
@@ -81,9 +81,9 @@ jobs:
             ' merged_prs.json > merged_prs_filtered.json
 
           jq \
-            --rawfile include .github/dashboard-include-prs.txt \
-            --rawfile exclude .github/dashboard-exclude-prs.txt \
-            --rawfile exclude_repos .github/dashboard-exclude-repos.txt \
+            --rawfile include dashboard-include-prs.txt \
+            --rawfile exclude dashboard-exclude-prs.txt \
+            --rawfile exclude_repos dashboard-exclude-repos.txt \
             '
             def clean_lines($s):
               $s
