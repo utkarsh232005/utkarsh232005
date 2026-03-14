@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install jq
         run: sudo apt-get install jq
@@ -54,12 +54,12 @@ jobs:
 
             (clean_lines($include)) as $allow
             | (clean_lines($exclude)) as $deny
-            | .items |= map(
+            | .items = ((.items // []) | map(
                 select(
                   (($deny | index(.html_url)) == null)
                   and (($allow | length) == 0 or ($allow | index(.html_url)) != null)
                 )
-              )
+              ))
             ' merged_prs.json > merged_prs_filtered.json
 
           jq \
@@ -74,12 +74,12 @@ jobs:
 
             (clean_lines($include)) as $allow
             | (clean_lines($exclude)) as $deny
-            | .items |= map(
+            | .items = ((.items // []) | map(
                 select(
                   (($deny | index(.html_url)) == null)
                   and (($allow | length) == 0 or ($allow | index(.html_url)) != null)
                 )
-              )
+              ))
             ' active_prs.json > active_prs_filtered.json
 
       - name: Generate dashboard
@@ -88,11 +88,11 @@ jobs:
           echo "" >> dashboard.md
 
           echo "#### ✅ Merged Pull Requests" >> dashboard.md
-          jq -r '.items[] | "- [" + .title + "](" + .html_url + ") in **" + (.repository_url | split("/") | .[-2] + "/" + .[-1]) + "**"' merged_prs_filtered.json >> dashboard.md
+          jq -r '(.items // []) | if length == 0 then "- No merged PRs found." else .[] | "- [" + .title + "](" + .html_url + ") in **" + (.repository_url | split("/") | .[-2] + "/" + .[-1]) + "**" end' merged_prs_filtered.json >> dashboard.md
 
           echo "" >> dashboard.md
           echo "#### 🔄 Active Pull Requests" >> dashboard.md
-          jq -r '.items[] | "- [" + .title + "](" + .html_url + ") in **" + (.repository_url | split("/") | .[-2] + "/" + .[-1]) + "**"' active_prs_filtered.json >> dashboard.md
+          jq -r '(.items // []) | if length == 0 then "- No active PRs found." else .[] | "- [" + .title + "](" + .html_url + ") in **" + (.repository_url | split("/") | .[-2] + "/" + .[-1]) + "**" end' active_prs_filtered.json >> dashboard.md
 
           echo "" >> dashboard.md
           echo "_Last updated: $(date)_ " >> dashboard.md
