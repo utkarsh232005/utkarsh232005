@@ -50,7 +50,7 @@
   <img src="https://skillicons.dev/icons?i=git,vscode,figma" height="35"/>
 </p>
 
-
+---
 <!--START_SECTION:oss-contributions-->
 ### 🚀 Recent Open Source Contributions
 
