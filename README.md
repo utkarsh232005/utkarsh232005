@@ -58,6 +58,7 @@
 - [Fix deprecated "IRC" link text in developer tutorial extend.adoc](https://github.com/jenkins-infra/jenkins.io/pull/8948) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
 #### 🔄 Active Pull Requests
+- [fix: remove deprecated baseUrl from tsconfig](https://github.com/AOSSIE-Org/Rein/pull/314) in [**AOSSIE-Org**](https://github.com/AOSSIE-Org) / [Rein](https://github.com/AOSSIE-Org/Rein)
 - [docs: remove stale WIP markers from developer docs](https://github.com/jenkins-infra/jenkins.io/pull/8929) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
 #### 🐛 Open Issues
@@ -66,7 +67,7 @@
 #### ✔️ Closed Issues
 - [make check fails on macOS:scripts/check-typos  syntax error](https://github.com/jenkins-infra/jenkins.io/issues/8930) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
-_Last updated: Sat Mar 14 20:16:55 UTC 2026_ 
+_Last updated: Sat Mar 14 21:27:07 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
