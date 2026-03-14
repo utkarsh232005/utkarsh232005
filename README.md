@@ -51,10 +51,6 @@
 </p>
 
 
----
-
-## 🌍 Open Source Contribution Dashboard
-
 <!--START_SECTION:oss-contributions-->
 ### 🚀 Recent Open Source Contributions
 
