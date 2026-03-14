@@ -2,3 +2,7 @@
 # Add one PR URL per line.
 # Example:
 # https://github.com/fossology/fossology/pull/5678
+https://github.com/Rishiraj-Pathak-27/LLM-Hallucination-Detection-Correction-Using-RAG/pull/5
+https://github.com/Rishiraj-Pathak-27/LLM-Hallucination-Detection-Correction-Using-RAG/pull/4
+https://github.com/Rishiraj-Pathak-27/LLM-Hallucination-Detection-Correction-Using-RAG/pull/3
+https://github.com/Rishiraj-Pathak-27/LLM-Hallucination-Detection-Correction-Using-RAG/pull/2
