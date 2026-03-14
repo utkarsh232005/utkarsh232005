@@ -1,0 +1,5 @@
+# Optional allowlist of PR URLs to display.
+# Leave empty to show all PRs (except excluded ones).
+# Add one PR URL per line.
+# Example:
+# https://github.com/fossology/fossology/pull/1234
