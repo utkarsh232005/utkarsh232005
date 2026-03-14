@@ -52,6 +52,11 @@
 
 
 ---
+<p align="center">
+  <img src="https://img.shields.io/github/issues-pr/utkarsh232005/utkarsh232005?style=for-the-badge"/>
+  <img src="https://img.shields.io/github/issues-pr-closed/utkarsh232005/utkarsh232005?style=for-the-badge"/>
+</p>
+---
 
 ### 🔥 GitHub Streak
 <p align="center">
