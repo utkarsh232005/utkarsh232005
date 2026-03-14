@@ -55,11 +55,15 @@
 ### 🚀 Recent Open Source Contributions
 
 #### ✅ Merged Pull Requests
-- [Fix deprecated "IRC" link text in developer tutorial extend.adoc](https://github.com/jenkins-infra/jenkins.io/pull/8948) in **jenkins-infra/jenkins.io**
+- [Fix deprecated "IRC" link text in developer tutorial extend.adoc](https://github.com/jenkins-infra/jenkins.io/pull/8948) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
 #### 🔄 Active Pull Requests
-- [docs: remove stale WIP markers from developer docs](https://github.com/jenkins-infra/jenkins.io/pull/8929) in **jenkins-infra/jenkins.io**
+- [docs: remove stale WIP markers from developer docs](https://github.com/jenkins-infra/jenkins.io/pull/8929) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
+#### 🐛 Open Issues
+- No open issues found.
 
+#### ✔️ Closed Issues
+- No closed issues found.
 _Last updated: Sat Mar 14 18:18:49 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
