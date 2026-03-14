@@ -59,12 +59,16 @@
 
 #### 🔄 Active Pull Requests
 - [docs: remove stale WIP markers from developer docs](https://github.com/jenkins-infra/jenkins.io/pull/8929) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
+
 #### 🐛 Open Issues
 - No open issues found.
 
 #### ✔️ Closed Issues
-- No closed issues found.
-_Last updated: Sat Mar 14 18:18:49 UTC 2026_ 
+- [make check fails on macOS:scripts/check-typos  syntax error](https://github.com/jenkins-infra/jenkins.io/issues/8930) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
+- [Add our apps code to this repo](https://github.com/Rishiraj-Pathak-27/Prarambh-Hackathon/issues/1) in [**Rishiraj-Pathak-27**](https://github.com/Rishiraj-Pathak-27) / [Prarambh-Hackathon](https://github.com/Rishiraj-Pathak-27/Prarambh-Hackathon)
+- [Fix package.json conflicts between main and contributors branches](https://github.com/utkarsh232005/campus-scribe-insights/issues/5) in [**utkarsh232005**](https://github.com/utkarsh232005) / [campus-scribe-insights](https://github.com/utkarsh232005/campus-scribe-insights)
+
+_Last updated: Sat Mar 14 20:13:37 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
