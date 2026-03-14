@@ -53,6 +53,14 @@
 
 ---
 
+## 🌍 Open Source Contribution Dashboard
+
+<!--START_SECTION:oss-contributions-->
+Loading open source contributions...
+<!--END_SECTION:oss-contributions-->
+
+---
+
 ### 🔥 GitHub Streak
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=utkarsh232005&theme=tokyonight&hide_border=true" />
