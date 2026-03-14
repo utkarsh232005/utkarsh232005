@@ -39,26 +39,43 @@ jobs:
         run: |
           touch .github/dashboard-include-prs.txt
           touch .github/dashboard-exclude-prs.txt
+          touch .github/dashboard-exclude-repos.txt
 
       - name: Apply manual PR filters
         run: |
           jq \
             --rawfile include .github/dashboard-include-prs.txt \
             --rawfile exclude .github/dashboard-exclude-prs.txt \
+            --rawfile exclude_repos .github/dashboard-exclude-repos.txt \
             '
             def clean_lines($s):
               $s
               | split("\n")
               | map(gsub("^\\s+|\\s+$"; ""))
-              | map(select(length > 0 and (startswith("#") | not)));
+              | map(select(length > 0 and (startswith("#") | not)))
+              | map(ascii_downcase);
+
+            def repo_name($pr):
+              ($pr.repository_url | split("/") | .[-2] + "/" + .[-1] | ascii_downcase);
+
+            def norm_url($u):
+              ($u | split("?") | .[0] | split("#") | .[0] | gsub("/+$"; "") | ascii_downcase);
+
+            def pr_match($entry; $pr):
+              ($entry == norm_url($pr.html_url))
+              or ($entry == ($pr.number | tostring))
+              or ($entry == (repo_name($pr) + "#" + ($pr.number | tostring)))
+              or ($entry == (repo_name($pr) + "/pull/" + ($pr.number | tostring)));
 
             (clean_lines($include)) as $allow
             | (clean_lines($exclude)) as $deny
+            | (clean_lines($exclude_repos)) as $deny_repos
             | .items = ((.items // []) | map(
                 . as $pr
                 | select(
-                    (($deny | index($pr.html_url)) == null)
-                    and (($allow | length) == 0 or ($allow | index($pr.html_url)) != null)
+                    (($deny_repos | index(repo_name($pr))) == null)
+                    and (($deny | any(pr_match(.; $pr))) | not)
+                    and (($allow | length) == 0 or ($allow | any(pr_match(.; $pr))))
                   )
               ))
             ' merged_prs.json > merged_prs_filtered.json
@@ -66,20 +83,36 @@ jobs:
           jq \
             --rawfile include .github/dashboard-include-prs.txt \
             --rawfile exclude .github/dashboard-exclude-prs.txt \
+            --rawfile exclude_repos .github/dashboard-exclude-repos.txt \
             '
             def clean_lines($s):
               $s
               | split("\n")
               | map(gsub("^\\s+|\\s+$"; ""))
-              | map(select(length > 0 and (startswith("#") | not)));
+              | map(select(length > 0 and (startswith("#") | not)))
+              | map(ascii_downcase);
+
+            def repo_name($pr):
+              ($pr.repository_url | split("/") | .[-2] + "/" + .[-1] | ascii_downcase);
+
+            def norm_url($u):
+              ($u | split("?") | .[0] | split("#") | .[0] | gsub("/+$"; "") | ascii_downcase);
+
+            def pr_match($entry; $pr):
+              ($entry == norm_url($pr.html_url))
+              or ($entry == ($pr.number | tostring))
+              or ($entry == (repo_name($pr) + "#" + ($pr.number | tostring)))
+              or ($entry == (repo_name($pr) + "/pull/" + ($pr.number | tostring)));
 
             (clean_lines($include)) as $allow
             | (clean_lines($exclude)) as $deny
+            | (clean_lines($exclude_repos)) as $deny_repos
             | .items = ((.items // []) | map(
                 . as $pr
                 | select(
-                    (($deny | index($pr.html_url)) == null)
-                    and (($allow | length) == 0 or ($allow | index($pr.html_url)) != null)
+                    (($deny_repos | index(repo_name($pr))) == null)
+                    and (($deny | any(pr_match(.; $pr))) | not)
+                    and (($allow | length) == 0 or ($allow | any(pr_match(.; $pr))))
                   )
               ))
             ' active_prs.json > active_prs_filtered.json
