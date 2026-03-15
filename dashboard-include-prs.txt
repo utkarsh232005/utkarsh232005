@@ -7,3 +7,4 @@ https://github.com/jenkins-infra/jenkins.io/pull/8948
 https://github.com/jenkins-infra/jenkins.io/pull/8929
 https://github.com/AOSSIE-Org/Rein/pull/314
 https://github.com/jenkins-infra/jenkins.io/pull/8950
+https://github.com/jenkins-infra/jenkins.io/pull/8954
