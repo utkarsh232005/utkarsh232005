@@ -55,11 +55,12 @@
 ### 🚀 Recent Open Source Contributions
 
 #### ✅ Merged Pull Requests
+- [fix: remove deprecated baseUrl from tsconfig](https://github.com/AOSSIE-Org/Rein/pull/314) in [**AOSSIE-Org**](https://github.com/AOSSIE-Org) / [Rein](https://github.com/AOSSIE-Org/Rein)
 - [Update Dockerfile to use uppercase 'AS' in multi-stage builds](https://github.com/jenkins-infra/jenkins.io/pull/8950) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 - [Fix deprecated "IRC" link text in developer tutorial extend.adoc](https://github.com/jenkins-infra/jenkins.io/pull/8948) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
 #### 🔄 Active Pull Requests
-- [fix: remove deprecated baseUrl from tsconfig](https://github.com/AOSSIE-Org/Rein/pull/314) in [**AOSSIE-Org**](https://github.com/AOSSIE-Org) / [Rein](https://github.com/AOSSIE-Org/Rein)
+- No active PRs found.
 
 #### 🐛 Open Issues
 - No open issues found.
@@ -67,7 +68,7 @@
 #### ✔️ Closed Issues
 - [make check fails on macOS:scripts/check-typos  syntax error](https://github.com/jenkins-infra/jenkins.io/issues/8930) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
-_Last updated: Sun Mar 15 12:22:42 UTC 2026_ 
+_Last updated: Sun Mar 15 17:12:09 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
