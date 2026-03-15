@@ -60,7 +60,7 @@
 - [Fix deprecated "IRC" link text in developer tutorial extend.adoc](https://github.com/jenkins-infra/jenkins.io/pull/8948) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
 #### 🔄 Active Pull Requests
-- No active PRs found.
+- [Fix typos and formatting in architecting-for-scale documentation](https://github.com/jenkins-infra/jenkins.io/pull/8954) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
 #### 🐛 Open Issues
 - No open issues found.
@@ -68,7 +68,7 @@
 #### ✔️ Closed Issues
 - [make check fails on macOS:scripts/check-typos  syntax error](https://github.com/jenkins-infra/jenkins.io/issues/8930) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
-_Last updated: Sun Mar 15 17:12:09 UTC 2026_ 
+_Last updated: Sun Mar 15 17:15:27 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
