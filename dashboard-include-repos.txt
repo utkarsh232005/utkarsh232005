@@ -5,3 +5,4 @@
 # jenkins-infra/jenkins.io
 jenkins-infra/jenkins.io
 AOSSIE-Org/Rein
+jenkinsci/winp
