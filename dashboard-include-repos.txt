@@ -1,0 +1,7 @@
+# Optional allowlist of repositories to show PRs from.
+# Leave empty to show PRs from all repositories.
+# Add one repository per line in owner/repo format.
+# Example:
+# jenkins-infra/jenkins.io
+jenkins-infra/jenkins.io
+AOSSIE-Org/Rein

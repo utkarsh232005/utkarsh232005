@@ -53,6 +53,7 @@ jobs:
 
       - name: Ensure filter files exist
         run: |
+          touch dashboard-include-repos.txt
           touch dashboard-include-prs.txt
           touch dashboard-exclude-prs.txt
           touch dashboard-exclude-repos.txt
@@ -60,6 +61,7 @@ jobs:
       - name: Apply manual PR filters
         run: |
           jq \
+            --rawfile include_repos dashboard-include-repos.txt \
             --rawfile include dashboard-include-prs.txt \
             --rawfile exclude dashboard-exclude-prs.txt \
             --rawfile exclude_repos dashboard-exclude-repos.txt \
@@ -83,12 +85,15 @@ jobs:
               or ($entry == (repo_name($pr) + "#" + ($pr.number | tostring)))
               or ($entry == (repo_name($pr) + "/pull/" + ($pr.number | tostring)));
 
-            (clean_lines($include)) as $allow
+            (clean_lines($include_repos)) as $allow_repos
+            | (clean_lines($include)) as $allow
             | (clean_lines($exclude)) as $deny
             | (clean_lines($exclude_repos)) as $deny_repos
             | .items = ((.items // []) | map(
                 . as $pr
                 | select(
+                    (($allow_repos | length) == 0 or (($allow_repos | index(repo_name($pr))) != null))
+                    and
                     (($deny_repos | index(repo_name($pr))) == null)
                     and (($deny | any(pr_match(.; $pr))) | not)
                     and (($allow | length) == 0 or ($allow | any(pr_match(.; $pr))))
@@ -97,6 +102,7 @@ jobs:
             ' merged_prs.json > merged_prs_filtered.json
 
           jq \
+            --rawfile include_repos dashboard-include-repos.txt \
             --rawfile include dashboard-include-prs.txt \
             --rawfile exclude dashboard-exclude-prs.txt \
             --rawfile exclude_repos dashboard-exclude-repos.txt \
@@ -120,12 +126,15 @@ jobs:
               or ($entry == (repo_name($pr) + "#" + ($pr.number | tostring)))
               or ($entry == (repo_name($pr) + "/pull/" + ($pr.number | tostring)));
 
-            (clean_lines($include)) as $allow
+            (clean_lines($include_repos)) as $allow_repos
+            | (clean_lines($include)) as $allow
             | (clean_lines($exclude)) as $deny
             | (clean_lines($exclude_repos)) as $deny_repos
             | .items = ((.items // []) | map(
                 . as $pr
                 | select(
+                (($allow_repos | length) == 0 or (($allow_repos | index(repo_name($pr))) != null))
+                and
                     (($deny_repos | index(repo_name($pr))) == null)
                     and (($deny | any(pr_match(.; $pr))) | not)
                     and (($allow | length) == 0 or ($allow | any(pr_match(.; $pr))))
