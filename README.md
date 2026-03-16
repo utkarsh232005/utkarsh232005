@@ -55,12 +55,31 @@
 ### 🚀 Recent Open Source Contributions
 
 #### ✅ Merged Pull Requests
+- [docs: update directory structure and add repository stats badges](https://github.com/utkarsh232005/Java-DSA-OOPS-Complete/pull/2) in [**utkarsh232005**](https://github.com/utkarsh232005) / [Java-DSA-OOPS-Complete](https://github.com/utkarsh232005/Java-DSA-OOPS-Complete)
 - [Fix typos and formatting in architecting-for-scale documentation](https://github.com/jenkins-infra/jenkins.io/pull/8954) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 - [fix: remove deprecated baseUrl from tsconfig](https://github.com/AOSSIE-Org/Rein/pull/314) in [**AOSSIE-Org**](https://github.com/AOSSIE-Org) / [Rein](https://github.com/AOSSIE-Org/Rein)
 - [Update Dockerfile to use uppercase 'AS' in multi-stage builds](https://github.com/jenkins-infra/jenkins.io/pull/8950) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
+- [Fix deprecated "IRC" link text in developer tutorial extend.adoc](https://github.com/jenkins-infra/jenkins.io/pull/8948) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
+- [Robust Architecture with Docker Configs](https://github.com/utkarsh232005/flask-redis-docker/pull/1) in [**utkarsh232005**](https://github.com/utkarsh232005) / [flask-redis-docker](https://github.com/utkarsh232005/flask-redis-docker)
+- [stats page added](https://github.com/Rishiraj-Pathak-27/R.A.K.T/pull/7) in [**Rishiraj-Pathak-27**](https://github.com/Rishiraj-Pathak-27) / [R.A.K.T](https://github.com/Rishiraj-Pathak-27/R.A.K.T)
+- [feat: Implement AI-generated explanations for blood match failures an…](https://github.com/Rishiraj-Pathak-27/R.A.K.T/pull/6) in [**Rishiraj-Pathak-27**](https://github.com/Rishiraj-Pathak-27) / [R.A.K.T](https://github.com/Rishiraj-Pathak-27/R.A.K.T)
+- [add blood bank dashboard](https://github.com/Rishiraj-Pathak-27/R.A.K.T/pull/5) in [**Rishiraj-Pathak-27**](https://github.com/Rishiraj-Pathak-27) / [R.A.K.T](https://github.com/Rishiraj-Pathak-27/R.A.K.T)
+- [fix errors](https://github.com/Rishiraj-Pathak-27/R.A.K.T/pull/4) in [**Rishiraj-Pathak-27**](https://github.com/Rishiraj-Pathak-27) / [R.A.K.T](https://github.com/Rishiraj-Pathak-27/R.A.K.T)
+- [feat: Implement dynamic saving for donation data, enhance blood bank …](https://github.com/Rishiraj-Pathak-27/R.A.K.T/pull/3) in [**Rishiraj-Pathak-27**](https://github.com/Rishiraj-Pathak-27) / [R.A.K.T](https://github.com/Rishiraj-Pathak-27/R.A.K.T)
+- [fix sidebar](https://github.com/Rishiraj-Pathak-27/R.A.K.T/pull/2) in [**Rishiraj-Pathak-27**](https://github.com/Rishiraj-Pathak-27) / [R.A.K.T](https://github.com/Rishiraj-Pathak-27/R.A.K.T)
+- [feat: Add donation request, login, and notification services](https://github.com/Rishiraj-Pathak-27/R.A.K.T/pull/1) in [**Rishiraj-Pathak-27**](https://github.com/Rishiraj-Pathak-27) / [R.A.K.T](https://github.com/Rishiraj-Pathak-27/R.A.K.T)
+- [Update issue templates](https://github.com/utkarsh232005/Java-DSA-OOPS-Complete/pull/1) in [**utkarsh232005**](https://github.com/utkarsh232005) / [Java-DSA-OOPS-Complete](https://github.com/utkarsh232005/Java-DSA-OOPS-Complete)
+- [added functionality](https://github.com/Rishiraj-Pathak-27/samadhan/pull/1) in [**Rishiraj-Pathak-27**](https://github.com/Rishiraj-Pathak-27) / [samadhan](https://github.com/Rishiraj-Pathak-27/samadhan)
+- [ui and new page integration](https://github.com/Mayank-Ninawe/INNOV8ORS-GHRIET/pull/6) in [**Mayank-Ninawe**](https://github.com/Mayank-Ninawe) / [INNOV8ORS-GHRIET](https://github.com/Mayank-Ninawe/INNOV8ORS-GHRIET)
+- [added features and files ](https://github.com/Mayank-Ninawe/INNOV8ORS-GHRIET/pull/5) in [**Mayank-Ninawe**](https://github.com/Mayank-Ninawe) / [INNOV8ORS-GHRIET](https://github.com/Mayank-Ninawe/INNOV8ORS-GHRIET)
+- [my changes](https://github.com/Mayank-Ninawe/INNOV8ORS-GHRIET/pull/4) in [**Mayank-Ninawe**](https://github.com/Mayank-Ninawe) / [INNOV8ORS-GHRIET](https://github.com/Mayank-Ninawe/INNOV8ORS-GHRIET)
+- [updated ui animations](https://github.com/Mayank-Ninawe/INNOV8ORS-GHRIET/pull/3) in [**Mayank-Ninawe**](https://github.com/Mayank-Ninawe) / [INNOV8ORS-GHRIET](https://github.com/Mayank-Ninawe/INNOV8ORS-GHRIET)
+- [add a rest api of git hub](https://github.com/Mayank-Ninawe/INNOV8ORS-GHRIET/pull/2) in [**Mayank-Ninawe**](https://github.com/Mayank-Ninawe) / [INNOV8ORS-GHRIET](https://github.com/Mayank-Ninawe/INNOV8ORS-GHRIET)
+- [initial webpage](https://github.com/Mayank-Ninawe/INNOV8ORS-GHRIET/pull/1) in [**Mayank-Ninawe**](https://github.com/Mayank-Ninawe) / [INNOV8ORS-GHRIET](https://github.com/Mayank-Ninawe/INNOV8ORS-GHRIET)
+- [initial web-app is done](https://github.com/NSS-RBU/website/pull/2) in [**NSS-RBU**](https://github.com/NSS-RBU) / [website](https://github.com/NSS-RBU/website)
 
 #### 🔄 Active Pull Requests
-- No active PRs found.
+- [Remove broken Hacktoberfest project board link](https://github.com/jenkins-infra/jenkins.io/pull/8957) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
 #### 🐛 Open Issues
 - No open issues found.
@@ -68,7 +87,7 @@
 #### ✔️ Closed Issues
 - [make check fails on macOS:scripts/check-typos  syntax error](https://github.com/jenkins-infra/jenkins.io/issues/8930) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
-_Last updated: Mon Mar 16 19:29:06 UTC 2026_ 
+_Last updated: Mon Mar 16 19:42:35 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
