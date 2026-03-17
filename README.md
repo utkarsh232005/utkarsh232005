@@ -62,7 +62,7 @@
 - [Fix deprecated "IRC" link text in developer tutorial extend.adoc](https://github.com/jenkins-infra/jenkins.io/pull/8948) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
 #### 🔄 Active Pull Requests
-- [Change Windows agent version from 2019 to 2022](https://github.com/jenkinsci/winp/pull/164) in [**jenkinsci**](https://github.com/jenkinsci) / [winp](https://github.com/jenkinsci/winp)
+- No active PRs found.
 
 #### 🐛 Open Issues
 - No open issues found.
@@ -70,7 +70,7 @@
 #### ✔️ Closed Issues
 - [make check fails on macOS:scripts/check-typos  syntax error](https://github.com/jenkins-infra/jenkins.io/issues/8930) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
-_Last updated: Tue Mar 17 00:58:06 UTC 2026_ 
+_Last updated: Tue Mar 17 06:46:23 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
