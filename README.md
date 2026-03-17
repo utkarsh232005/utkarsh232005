@@ -55,13 +55,14 @@
 ### 🚀 Recent Open Source Contributions
 
 #### ✅ Merged Pull Requests
+- [Remove broken Hacktoberfest project board link](https://github.com/jenkins-infra/jenkins.io/pull/8957) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 - [Fix typos and formatting in architecting-for-scale documentation](https://github.com/jenkins-infra/jenkins.io/pull/8954) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 - [fix: remove deprecated baseUrl from tsconfig](https://github.com/AOSSIE-Org/Rein/pull/314) in [**AOSSIE-Org**](https://github.com/AOSSIE-Org) / [Rein](https://github.com/AOSSIE-Org/Rein)
 - [Update Dockerfile to use uppercase 'AS' in multi-stage builds](https://github.com/jenkins-infra/jenkins.io/pull/8950) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 - [Fix deprecated "IRC" link text in developer tutorial extend.adoc](https://github.com/jenkins-infra/jenkins.io/pull/8948) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
 #### 🔄 Active Pull Requests
-- [Remove broken Hacktoberfest project board link](https://github.com/jenkins-infra/jenkins.io/pull/8957) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
+- [Change Windows agent version from 2019 to 2022](https://github.com/jenkinsci/winp/pull/164) in [**jenkinsci**](https://github.com/jenkinsci) / [winp](https://github.com/jenkinsci/winp)
 
 #### 🐛 Open Issues
 - No open issues found.
@@ -69,7 +70,7 @@
 #### ✔️ Closed Issues
 - [make check fails on macOS:scripts/check-typos  syntax error](https://github.com/jenkins-infra/jenkins.io/issues/8930) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
-_Last updated: Mon Mar 16 19:48:14 UTC 2026_ 
+_Last updated: Tue Mar 17 00:58:06 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
