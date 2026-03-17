@@ -6,3 +6,4 @@
 jenkins-infra/jenkins.io
 AOSSIE-Org/Rein
 jenkinsci/winp
+github/awesome-copilot
