@@ -62,7 +62,7 @@
 - [Fix deprecated "IRC" link text in developer tutorial extend.adoc](https://github.com/jenkins-infra/jenkins.io/pull/8948) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
 #### 🔄 Active Pull Requests
-- No active PRs found.
+- [Premium frontend skill](https://github.com/github/awesome-copilot/pull/1047) in [**github**](https://github.com/github) / [awesome-copilot](https://github.com/github/awesome-copilot)
 
 #### 🐛 Open Issues
 - No open issues found.
@@ -70,7 +70,7 @@
 #### ✔️ Closed Issues
 - [make check fails on macOS:scripts/check-typos  syntax error](https://github.com/jenkins-infra/jenkins.io/issues/8930) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
-_Last updated: Tue Mar 17 12:37:39 UTC 2026_ 
+_Last updated: Tue Mar 17 18:26:03 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
