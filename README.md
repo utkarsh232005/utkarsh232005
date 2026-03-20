@@ -63,7 +63,7 @@
 - [Fix deprecated "IRC" link text in developer tutorial extend.adoc](https://github.com/jenkins-infra/jenkins.io/pull/8948) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
 #### 🔄 Active Pull Requests
-- No active PRs found.
+- [Add Dockerizing Node.js skill](https://github.com/github/awesome-copilot/pull/1099) in [**github**](https://github.com/github) / [awesome-copilot](https://github.com/github/awesome-copilot)
 
 #### 🐛 Open Issues
 - No open issues found.
@@ -72,7 +72,7 @@
 - [make check fails on macOS:scripts/check-typos  syntax error](https://github.com/jenkins-infra/jenkins.io/issues/8930) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 - [## Pull Request Overview](https://github.com/utkarsh232005/TBI-website/issues/5) in [**utkarsh232005**](https://github.com/utkarsh232005) / [TBI-website](https://github.com/utkarsh232005/TBI-website)
 
-_Last updated: Fri Mar 20 06:37:55 UTC 2026_ 
+_Last updated: Fri Mar 20 12:28:05 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
