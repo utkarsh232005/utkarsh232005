@@ -66,7 +66,7 @@
 - [Fix deprecated "IRC" link text in developer tutorial extend.adoc](https://github.com/jenkins-infra/jenkins.io/pull/8948) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
 #### 🔄 Active Pull Requests
-- No active PRs found.
+- [fix: update Ruby version to 3.4.8 in Dockerfile and FromAsCasing issue on build](https://github.com/jenkins-infra/jenkins.io/pull/9079) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
 #### 🐛 Open Issues
 - No open issues found.
@@ -74,7 +74,7 @@
 #### ✔️ Closed Issues
 - [make check fails on macOS:scripts/check-typos  syntax error](https://github.com/jenkins-infra/jenkins.io/issues/8930) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
-_Last updated: Fri Apr 24 18:32:51 UTC 2026_ 
+_Last updated: Sat Apr 25 01:08:43 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
