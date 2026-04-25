@@ -55,6 +55,7 @@
 ### 🚀 Recent Open Source Contributions
 
 #### ✅ Merged Pull Requests
+- [fix: update Ruby version to 3.4.8 in Dockerfile and FromAsCasing issue on build](https://github.com/jenkins-infra/jenkins.io/pull/9079) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 - [Add author credits skills](https://github.com/github/awesome-copilot/pull/1379) in [**github**](https://github.com/github) / [awesome-copilot](https://github.com/github/awesome-copilot)
 - [feat: refine gsap-framer-scroll-animation skill and references](https://github.com/github/awesome-copilot/pull/1284) in [**github**](https://github.com/github) / [awesome-copilot](https://github.com/github/awesome-copilot)
 - [Fix/choices and favicon](https://github.com/github/awesome-copilot/pull/1101) in [**github**](https://github.com/github) / [awesome-copilot](https://github.com/github/awesome-copilot)
@@ -66,7 +67,7 @@
 - [Fix deprecated "IRC" link text in developer tutorial extend.adoc](https://github.com/jenkins-infra/jenkins.io/pull/8948) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
 #### 🔄 Active Pull Requests
-- [fix: update Ruby version to 3.4.8 in Dockerfile and FromAsCasing issue on build](https://github.com/jenkins-infra/jenkins.io/pull/9079) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
+- No active PRs found.
 
 #### 🐛 Open Issues
 - No open issues found.
@@ -74,7 +75,7 @@
 #### ✔️ Closed Issues
 - [make check fails on macOS:scripts/check-typos  syntax error](https://github.com/jenkins-infra/jenkins.io/issues/8930) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
-_Last updated: Sat Apr 25 06:58:53 UTC 2026_ 
+_Last updated: Sat Apr 25 12:32:25 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
