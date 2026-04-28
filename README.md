@@ -68,12 +68,12 @@
 - [feat(repo): Phase 1 of #1368 - add marketplace publish target](https://github.com/github/awesome-copilot/pull/1526) in [**github**](https://github.com/github) / [awesome-copilot](https://github.com/github/awesome-copilot)
 
 #### 🐛 Open Issues
-- No open issues found.
+- [404 on plugin sql refrenence link](https://github.com/github/awesome-copilot/issues/1527) in [**github**](https://github.com/github) / [awesome-copilot](https://github.com/github/awesome-copilot)
 
 #### ✔️ Closed Issues
 - [make check fails on macOS:scripts/check-typos  syntax error](https://github.com/jenkins-infra/jenkins.io/issues/8930) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
-_Last updated: Mon Apr 27 20:07:26 UTC 2026_ 
+_Last updated: Tue Apr 28 01:25:01 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
