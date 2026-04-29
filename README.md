@@ -59,6 +59,7 @@
 - [Add author credits skills](https://github.com/github/awesome-copilot/pull/1379) in [**github**](https://github.com/github) / [awesome-copilot](https://github.com/github/awesome-copilot)
 - [feat: refine gsap-framer-scroll-animation skill and references](https://github.com/github/awesome-copilot/pull/1284) in [**github**](https://github.com/github) / [awesome-copilot](https://github.com/github/awesome-copilot)
 - [Premium frontend skill](https://github.com/github/awesome-copilot/pull/1047) in [**github**](https://github.com/github) / [awesome-copilot](https://github.com/github/awesome-copilot)
+- [Remove broken Hacktoberfest project board link](https://github.com/jenkins-infra/jenkins.io/pull/8957) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 - [Fix typos and formatting in architecting-for-scale documentation](https://github.com/jenkins-infra/jenkins.io/pull/8954) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 - [fix: remove deprecated baseUrl from tsconfig](https://github.com/AOSSIE-Org/Rein/pull/314) in [**AOSSIE-Org**](https://github.com/AOSSIE-Org) / [Rein](https://github.com/AOSSIE-Org/Rein)
 - [Update Dockerfile to use uppercase 'AS' in multi-stage builds](https://github.com/jenkins-infra/jenkins.io/pull/8950) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
@@ -73,7 +74,7 @@
 #### ✔️ Closed Issues
 - [make check fails on macOS:scripts/check-typos  syntax error](https://github.com/jenkins-infra/jenkins.io/issues/8930) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
-_Last updated: Wed Apr 29 07:53:42 UTC 2026_ 
+_Last updated: Wed Apr 29 13:13:38 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
