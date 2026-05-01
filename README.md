@@ -66,7 +66,7 @@
 - [Fix deprecated "IRC" link text in developer tutorial extend.adoc](https://github.com/jenkins-infra/jenkins.io/pull/8948) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
 #### 🔄 Active Pull Requests
-- No active PRs found.
+- [fix: resolve broken markdown links](https://github.com/hiero-ledger/hiero-sdk-python/pull/2221) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-python](https://github.com/hiero-ledger/hiero-sdk-python)
 
 #### 🐛 Open Issues
 - [404 on plugin sql refrenence link](https://github.com/github/awesome-copilot/issues/1527) in [**github**](https://github.com/github) / [awesome-copilot](https://github.com/github/awesome-copilot)
@@ -74,7 +74,7 @@
 #### ✔️ Closed Issues
 - [make check fails on macOS:scripts/check-typos  syntax error](https://github.com/jenkins-infra/jenkins.io/issues/8930) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
-_Last updated: Fri May  1 18:51:30 UTC 2026_ 
+_Last updated: Fri May  1 20:38:36 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
