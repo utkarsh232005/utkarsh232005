@@ -7,3 +7,4 @@ jenkins-infra/jenkins.io
 AOSSIE-Org/Rein
 jenkinsci/winp
 github/awesome-copilot
+hiero-ledger/hiero-sdk-python
