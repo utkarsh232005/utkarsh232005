@@ -98,16 +98,9 @@ _Last updated: Sun May  3 09:47:08 UTC 2026_
 ### 🌐 Connect
 <p align="center">
   <a href="https://linkedin.com/in/utkarsh-patrikar">LinkedIn</a> •
-  <a href="https://github.com/utkarsh232005">GitHub</a> •
+  <!-- <a href="https://github.com/utkarsh232005">GitHub</a> • -->
   <a href="mailto:utkarshpatrikar@gmail.com">Email</a> •
   <a href="https://utkarshpatrikar.me">Portfolio</a>
-</p>
-
----
-
-### 🐍 Contribution Snake
-<p align="center">
-  <img src="https://raw.githubusercontent.com/utkarsh232005/utkarsh232005/output/snake.svg" />
 </p>
 
 ---
