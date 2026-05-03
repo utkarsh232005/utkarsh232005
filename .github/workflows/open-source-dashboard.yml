@@ -14,10 +14,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
 
       - name: Install jq
-        run: sudo apt-get install jq
+        run: sudo apt-get install -y jq
 
       - name: Fetch merged PRs
         run: |
@@ -67,8 +67,7 @@ jobs:
             --rawfile exclude_repos dashboard-exclude-repos.txt \
             '
             def clean_lines($s):
-              $s
-              | split("\n")
+              $s | split("\n")
               | map(gsub("^\\s+|\\s+$"; ""))
               | map(select(length > 0 and (startswith("#") | not)))
               | map(ascii_downcase);
@@ -93,8 +92,7 @@ jobs:
                 . as $pr
                 | select(
                     (($allow_repos | length) == 0 or (($allow_repos | index(repo_name($pr))) != null))
-                    and
-                    (($deny_repos | index(repo_name($pr))) == null)
+                    and (($deny_repos | index(repo_name($pr))) == null)
                     and (($deny | any(pr_match(.; $pr))) | not)
                     and (($allow | length) == 0 or ($allow | any(pr_match(.; $pr))))
                   )
@@ -108,8 +106,7 @@ jobs:
             --rawfile exclude_repos dashboard-exclude-repos.txt \
             '
             def clean_lines($s):
-              $s
-              | split("\n")
+              $s | split("\n")
               | map(gsub("^\\s+|\\s+$"; ""))
               | map(select(length > 0 and (startswith("#") | not)))
               | map(ascii_downcase);
@@ -133,22 +130,19 @@ jobs:
             | .items = ((.items // []) | map(
                 . as $pr
                 | select(
-                (($allow_repos | length) == 0 or (($allow_repos | index(repo_name($pr))) != null))
-                and
-                    (($deny_repos | index(repo_name($pr))) == null)
+                    (($allow_repos | length) == 0 or (($allow_repos | index(repo_name($pr))) != null))
+                    and (($deny_repos | index(repo_name($pr))) == null)
                     and (($deny | any(pr_match(.; $pr))) | not)
                     and (($allow | length) == 0 or ($allow | any(pr_match(.; $pr))))
                   )
               ))
             ' active_prs.json > active_prs_filtered.json
 
-          # Filter open issues by excluded repos
           jq \
             --rawfile exclude_repos dashboard-exclude-repos.txt \
             '
             def clean_lines($s):
-              $s
-              | split("\n")
+              $s | split("\n")
               | map(gsub("^\\s+|\\s+$"; ""))
               | map(select(length > 0 and (startswith("#") | not)))
               | map(ascii_downcase);
@@ -163,13 +157,11 @@ jobs:
               ))
             ' open_issues.json > open_issues_filtered.json
 
-          # Filter closed issues by excluded repos
           jq \
             --rawfile exclude_repos dashboard-exclude-repos.txt \
             '
             def clean_lines($s):
-              $s
-              | split("\n")
+              $s | split("\n")
               | map(gsub("^\\s+|\\s+$"; ""))
               | map(select(length > 0 and (startswith("#") | not)))
               | map(ascii_downcase);
@@ -186,23 +178,88 @@ jobs:
 
       - name: Generate dashboard
         run: |
+          MERGED_TOTAL=$(jq '.items | length' merged_prs_filtered.json)
+          ACTIVE_TOTAL=$(jq '.items | length' active_prs_filtered.json)
+          OPEN_ISSUES_TOTAL=$(jq '.items | length' open_issues_filtered.json)
+          CLOSED_ISSUES_TOTAL=$(jq '.items | length' closed_issues_filtered.json)
+
           echo "### 🚀 Recent Open Source Contributions" > dashboard.md
           echo "" >> dashboard.md
 
-          echo "#### ✅ Merged Pull Requests" >> dashboard.md
-          jq -r '(.items // []) | if length == 0 then "- No merged PRs found." else .[] | (.repository_url | split("/")) as $p | "- [" + .title + "](" + .html_url + ") in [**" + $p[-2] + "**](https://github.com/" + $p[-2] + ") / [" + $p[-1] + "](https://github.com/" + $p[-2] + "/" + $p[-1] + ")" end' merged_prs_filtered.json >> dashboard.md
+          echo "#### ✅ Merged Pull Requests · ${MERGED_TOTAL} total" >> dashboard.md
+          echo "" >> dashboard.md
+
+          if [ "$MERGED_TOTAL" -eq 0 ]; then
+            echo "- No merged PRs found." >> dashboard.md
+          else
+            echo '<div align="left">' >> dashboard.md
+            echo "" >> dashboard.md
+
+            jq -r '
+              [.items[] | (.repository_url | split("/")[-2])]
+              | group_by(.)
+              | map({org: .[0], count: length})
+              | sort_by(-.count)[]
+              | "<a href=\"https://github.com/\(.org)\" title=\"\(.org): \(.count) PR(s)\"><img src=\"https://github.com/\(.org).png?size=48\" width=\"48\" height=\"48\" style=\"border-radius:8px;margin:4px\" alt=\"\(.org)\"/></a>"
+            ' merged_prs_filtered.json >> dashboard.md
+
+            echo "" >> dashboard.md
+            echo '</div>' >> dashboard.md
+            echo "" >> dashboard.md
+
+            echo "| Organization | Merged PRs |" >> dashboard.md
+            echo "|---|---|" >> dashboard.md
+
+            jq -r '
+              [.items[] | (.repository_url | split("/")[-2])]
+              | group_by(.)
+              | map({org: .[0], count: length})
+              | sort_by(-.count)[]
+              | "| [\(.org)](https://github.com/\(.org)) | \(.count) |"
+            ' merged_prs_filtered.json >> dashboard.md
+          fi
 
           echo "" >> dashboard.md
-          echo "#### 🔄 Active Pull Requests" >> dashboard.md
-          jq -r '(.items // []) | if length == 0 then "- No active PRs found." else .[] | (.repository_url | split("/")) as $p | "- [" + .title + "](" + .html_url + ") in [**" + $p[-2] + "**](https://github.com/" + $p[-2] + ") / [" + $p[-1] + "](https://github.com/" + $p[-2] + "/" + $p[-1] + ")" end' active_prs_filtered.json >> dashboard.md
+          echo "#### 🔄 Active Pull Requests · ${ACTIVE_TOTAL} total" >> dashboard.md
+          echo "" >> dashboard.md
+
+          if [ "$ACTIVE_TOTAL" -eq 0 ]; then
+            echo "- No active PRs found." >> dashboard.md
+          else
+            jq -r '
+              (.items // [])[]
+              | (.repository_url | split("/")) as $p
+              | "- [" + .title + "](" + .html_url + ") in [**" + $p[-2] + "**](https://github.com/" + $p[-2] + ") / [" + $p[-1] + "](https://github.com/" + $p[-2] + "/" + $p[-1] + ")"
+            ' active_prs_filtered.json >> dashboard.md
+          fi
 
           echo "" >> dashboard.md
-          echo "#### 🐛 Open Issues" >> dashboard.md
-          jq -r '(.items // []) | if length == 0 then "- No open issues found." else .[] | (.repository_url | split("/")) as $p | "- [" + .title + "](" + .html_url + ") in [**" + $p[-2] + "**](https://github.com/" + $p[-2] + ") / [" + $p[-1] + "](https://github.com/" + $p[-2] + "/" + $p[-1] + ")" end' open_issues_filtered.json >> dashboard.md
+          echo "#### 🐛 Open Issues · ${OPEN_ISSUES_TOTAL} total" >> dashboard.md
+          echo "" >> dashboard.md
+
+          if [ "$OPEN_ISSUES_TOTAL" -eq 0 ]; then
+            echo "- No open issues found." >> dashboard.md
+          else
+            jq -r '
+              (.items // [])[]
+              | (.repository_url | split("/")) as $p
+              | "- [" + .title + "](" + .html_url + ") in [**" + $p[-2] + "**](https://github.com/" + $p[-2] + ") / [" + $p[-1] + "](https://github.com/" + $p[-2] + "/" + $p[-1] + ")"
+            ' open_issues_filtered.json >> dashboard.md
+          fi
 
           echo "" >> dashboard.md
-          echo "#### ✔️ Closed Issues" >> dashboard.md
-          jq -r '(.items // []) | if length == 0 then "- No closed issues found." else .[] | (.repository_url | split("/")) as $p | "- [" + .title + "](" + .html_url + ") in [**" + $p[-2] + "**](https://github.com/" + $p[-2] + ") / [" + $p[-1] + "](https://github.com/" + $p[-2] + "/" + $p[-1] + ")" end' closed_issues_filtered.json >> dashboard.md
+          echo "#### ✔️ Closed Issues · ${CLOSED_ISSUES_TOTAL} total" >> dashboard.md
+          echo "" >> dashboard.md
+
+          if [ "$CLOSED_ISSUES_TOTAL" -eq 0 ]; then
+            echo "- No closed issues found." >> dashboard.md
+          else
+            jq -r '
+              (.items // [])[]
+              | (.repository_url | split("/")) as $p
+              | "- [" + .title + "](" + .html_url + ") in [**" + $p[-2] + "**](https://github.com/" + $p[-2] + ") / [" + $p[-1] + "](https://github.com/" + $p[-2] + "/" + $p[-1] + ")"
+            ' closed_issues_filtered.json >> dashboard.md
+          fi
 
           echo "" >> dashboard.md
           echo "_Last updated: $(date)_ " >> dashboard.md
