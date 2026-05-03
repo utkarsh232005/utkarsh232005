@@ -69,12 +69,13 @@
 - [fix: resolve broken markdown links](https://github.com/hiero-ledger/hiero-sdk-python/pull/2221) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-python](https://github.com/hiero-ledger/hiero-sdk-python)
 
 #### 🐛 Open Issues
+- [n](https://github.com/utkarsh232005/Java-DSA-OOPS-Complete/issues/3) in [**utkarsh232005**](https://github.com/utkarsh232005) / [Java-DSA-OOPS-Complete](https://github.com/utkarsh232005/Java-DSA-OOPS-Complete)
 - [404 on plugin sql refrenence link](https://github.com/github/awesome-copilot/issues/1527) in [**github**](https://github.com/github) / [awesome-copilot](https://github.com/github/awesome-copilot)
 
 #### ✔️ Closed Issues
 - [make check fails on macOS:scripts/check-typos  syntax error](https://github.com/jenkins-infra/jenkins.io/issues/8930) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
-_Last updated: Sat May  2 18:37:49 UTC 2026_ 
+_Last updated: Sun May  3 01:23:53 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
