@@ -54,28 +54,36 @@
 <!--START_SECTION:oss-contributions-->
 ### 🚀 Recent Open Source Contributions
 
-#### ✅ Merged Pull Requests
-- [fix: update Ruby version to 3.4.8 in Dockerfile and FromAsCasing issue on build](https://github.com/jenkins-infra/jenkins.io/pull/9079) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
-- [Add author credits skills](https://github.com/github/awesome-copilot/pull/1379) in [**github**](https://github.com/github) / [awesome-copilot](https://github.com/github/awesome-copilot)
-- [feat: refine gsap-framer-scroll-animation skill and references](https://github.com/github/awesome-copilot/pull/1284) in [**github**](https://github.com/github) / [awesome-copilot](https://github.com/github/awesome-copilot)
-- [Premium frontend skill](https://github.com/github/awesome-copilot/pull/1047) in [**github**](https://github.com/github) / [awesome-copilot](https://github.com/github/awesome-copilot)
-- [Remove broken Hacktoberfest project board link](https://github.com/jenkins-infra/jenkins.io/pull/8957) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
-- [Fix typos and formatting in architecting-for-scale documentation](https://github.com/jenkins-infra/jenkins.io/pull/8954) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
-- [fix: remove deprecated baseUrl from tsconfig](https://github.com/AOSSIE-Org/Rein/pull/314) in [**AOSSIE-Org**](https://github.com/AOSSIE-Org) / [Rein](https://github.com/AOSSIE-Org/Rein)
-- [Update Dockerfile to use uppercase 'AS' in multi-stage builds](https://github.com/jenkins-infra/jenkins.io/pull/8950) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
-- [Fix deprecated "IRC" link text in developer tutorial extend.adoc](https://github.com/jenkins-infra/jenkins.io/pull/8948) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
+#### ✅ Merged Pull Requests · 9 total
 
-#### 🔄 Active Pull Requests
+<div align="left">
+
+<a href="https://github.com/jenkins-infra" title="jenkins-infra: 5 PR(s)"><img src="https://github.com/jenkins-infra.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="jenkins-infra"/></a>
+<a href="https://github.com/github" title="github: 3 PR(s)"><img src="https://github.com/github.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="github"/></a>
+<a href="https://github.com/AOSSIE-Org" title="AOSSIE-Org: 1 PR(s)"><img src="https://github.com/AOSSIE-Org.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="AOSSIE-Org"/></a>
+
+</div>
+
+| Organization | Merged PRs |
+|---|---|
+| [jenkins-infra](https://github.com/jenkins-infra) | 5 |
+| [github](https://github.com/github) | 3 |
+| [AOSSIE-Org](https://github.com/AOSSIE-Org) | 1 |
+
+#### 🔄 Active Pull Requests · 2 total
+
 - [Fix: Update log4cxx GIT_TAG to rel/v1.7.0](https://github.com/hiero-ledger/hiero-sdk-cpp/pull/1535) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
 - [Fix: Update OpenSSL version constraint to 3.4.1 in vcpkg.json](https://github.com/hiero-ledger/hiero-sdk-cpp/pull/1534) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
 
-#### 🐛 Open Issues
+#### 🐛 Open Issues · 1 total
+
 - [404 on plugin sql refrenence link](https://github.com/github/awesome-copilot/issues/1527) in [**github**](https://github.com/github) / [awesome-copilot](https://github.com/github/awesome-copilot)
 
-#### ✔️ Closed Issues
+#### ✔️ Closed Issues · 1 total
+
 - [make check fails on macOS:scripts/check-typos  syntax error](https://github.com/jenkins-infra/jenkins.io/issues/8930) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
-_Last updated: Sun May  3 09:41:42 UTC 2026_ 
+_Last updated: Sun May  3 09:47:08 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
