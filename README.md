@@ -66,7 +66,7 @@
 - [Fix deprecated "IRC" link text in developer tutorial extend.adoc](https://github.com/jenkins-infra/jenkins.io/pull/8948) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
 #### 🔄 Active Pull Requests
-- [fix: resolve broken markdown links](https://github.com/hiero-ledger/hiero-sdk-python/pull/2221) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-python](https://github.com/hiero-ledger/hiero-sdk-python)
+- No active PRs found.
 
 #### 🐛 Open Issues
 - [n](https://github.com/utkarsh232005/Java-DSA-OOPS-Complete/issues/3) in [**utkarsh232005**](https://github.com/utkarsh232005) / [Java-DSA-OOPS-Complete](https://github.com/utkarsh232005/Java-DSA-OOPS-Complete)
@@ -75,7 +75,7 @@
 #### ✔️ Closed Issues
 - [make check fails on macOS:scripts/check-typos  syntax error](https://github.com/jenkins-infra/jenkins.io/issues/8930) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
-_Last updated: Sun May  3 01:23:53 UTC 2026_ 
+_Last updated: Sun May  3 07:41:47 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
