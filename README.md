@@ -66,16 +66,16 @@
 - [Fix deprecated "IRC" link text in developer tutorial extend.adoc](https://github.com/jenkins-infra/jenkins.io/pull/8948) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
 #### 🔄 Active Pull Requests
-- No active PRs found.
+- [Fix: Update log4cxx GIT_TAG to rel/v1.7.0](https://github.com/hiero-ledger/hiero-sdk-cpp/pull/1535) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
+- [Fix: Update OpenSSL version constraint to 3.4.1 in vcpkg.json](https://github.com/hiero-ledger/hiero-sdk-cpp/pull/1534) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
 
 #### 🐛 Open Issues
-- [n](https://github.com/utkarsh232005/Java-DSA-OOPS-Complete/issues/3) in [**utkarsh232005**](https://github.com/utkarsh232005) / [Java-DSA-OOPS-Complete](https://github.com/utkarsh232005/Java-DSA-OOPS-Complete)
 - [404 on plugin sql refrenence link](https://github.com/github/awesome-copilot/issues/1527) in [**github**](https://github.com/github) / [awesome-copilot](https://github.com/github/awesome-copilot)
 
 #### ✔️ Closed Issues
 - [make check fails on macOS:scripts/check-typos  syntax error](https://github.com/jenkins-infra/jenkins.io/issues/8930) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
-_Last updated: Sun May  3 07:41:47 UTC 2026_ 
+_Last updated: Sun May  3 09:41:42 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
