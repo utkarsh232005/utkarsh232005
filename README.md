@@ -72,19 +72,20 @@
 | [hiero-ledger](https://github.com/hiero-ledger) | 2 |
 | [AOSSIE-Org](https://github.com/AOSSIE-Org) | 1 |
 
-#### 🔄 Active Pull Requests · 0 total
+#### 🔄 Active Pull Requests · 1 total
 
-- No active PRs found.
+- [feat: add operator== for ContractLogInfo](https://github.com/hiero-ledger/hiero-sdk-cpp/pull/1557) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
 
-#### 🐛 Open Issues · 1 total
+#### 🐛 Open Issues · 0 total
+
+- No open issues found.
+
+#### ✔️ Closed Issues · 2 total
 
 - [404 on plugin sql refrenence link](https://github.com/github/awesome-copilot/issues/1527) in [**github**](https://github.com/github) / [awesome-copilot](https://github.com/github/awesome-copilot)
-
-#### ✔️ Closed Issues · 1 total
-
 - [make check fails on macOS:scripts/check-typos  syntax error](https://github.com/jenkins-infra/jenkins.io/issues/8930) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
-_Last updated: Mon May  4 13:15:11 UTC 2026_ 
+_Last updated: Mon May  4 18:45:07 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
