@@ -54,13 +54,13 @@
 <!--START_SECTION:oss-contributions-->
 ### 🚀 Recent Open Source Contributions
 
-#### ✅ Merged Pull Requests · 11 total
+#### ✅ Merged Pull Requests · 12 total
 
 <div align="left">
 
 <a href="https://github.com/jenkins-infra" title="jenkins-infra: 5 PR(s)"><img src="https://github.com/jenkins-infra.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="jenkins-infra"/></a>
 <a href="https://github.com/github" title="github: 3 PR(s)"><img src="https://github.com/github.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="github"/></a>
-<a href="https://github.com/hiero-ledger" title="hiero-ledger: 2 PR(s)"><img src="https://github.com/hiero-ledger.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="hiero-ledger"/></a>
+<a href="https://github.com/hiero-ledger" title="hiero-ledger: 3 PR(s)"><img src="https://github.com/hiero-ledger.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="hiero-ledger"/></a>
 <a href="https://github.com/AOSSIE-Org" title="AOSSIE-Org: 1 PR(s)"><img src="https://github.com/AOSSIE-Org.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="AOSSIE-Org"/></a>
 
 </div>
@@ -69,12 +69,12 @@
 |---|---|
 | [jenkins-infra](https://github.com/jenkins-infra) | 5 |
 | [github](https://github.com/github) | 3 |
-| [hiero-ledger](https://github.com/hiero-ledger) | 2 |
+| [hiero-ledger](https://github.com/hiero-ledger) | 3 |
 | [AOSSIE-Org](https://github.com/AOSSIE-Org) | 1 |
 
-#### 🔄 Active Pull Requests · 1 total
+#### 🔄 Active Pull Requests · 0 total
 
-- [feat: add operator== for ContractLogInfo](https://github.com/hiero-ledger/hiero-sdk-cpp/pull/1557) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
+- No active PRs found.
 
 #### 🐛 Open Issues · 0 total
 
@@ -85,7 +85,7 @@
 - [404 on plugin sql refrenence link](https://github.com/github/awesome-copilot/issues/1527) in [**github**](https://github.com/github) / [awesome-copilot](https://github.com/github/awesome-copilot)
 - [make check fails on macOS:scripts/check-typos  syntax error](https://github.com/jenkins-infra/jenkins.io/issues/8930) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
-_Last updated: Mon May  4 19:08:30 UTC 2026_ 
+_Last updated: Tue May  5 01:22:56 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
