@@ -104,7 +104,4 @@ _Last updated: Wed May  6 19:15:15 UTC 2026_
   <a href="mailto:utkarshpatrikar@gmail.com">Email</a> •
   <a href="https://utkarshpatrikar.me">Portfolio</a>
 </p>
-
----
-
 <p align="center">🚀 "Code, Deploy, Automate & Scale!" 🚀</p>
