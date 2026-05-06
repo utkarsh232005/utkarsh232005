@@ -1,25 +1,20 @@
 <h1 align="center">👋 Hey there, I'm Utkarsh Patrikar!</h1>
 <h3 align="center">Full-Stack Developer | DevOps & Cloud Enthusiast | Tech Explorer 🌍</h3>
 
-<h3 align="left">👨‍💻 About Me</h3>
-
-<p>
-  💡 Passionate <strong>Software Developer</strong> with a love for 
-  <strong>Web Development</strong> and a growing enthusiasm for 
-  <strong>DevOps & Cloud Technologies</strong>. I enjoy building scalable, 
-  efficient web applications and diving into automation, cloud deployments, 
-  and CI/CD pipelines.
+<p align="center">
+  <a href="https://linkedin.com/in/utkarsh-patrikar">LinkedIn</a> •
+  <a href="mailto:utkarshpatrikar@gmail.com">Email</a> •
+  <a href="https://utkarshpatrikar.me">Portfolio</a>
 </p>
 
-<p>
-  🔭 Currently working on <strong>Full-Stack Web Apps & Cloud-Based Solutions</strong>
-  <br>
-  ⚙️ Exploring <strong>Docker, Kubernetes, AWS, and CI/CD workflows</strong>
-  <br>
-  🌱 Constantly learning and improving my skills in 
-  <strong>modern web & cloud technologies</strong>
-</p>
+---
 
+## 👨‍💻 About Me
+
+- 💡 Passionate **Software Developer** focused on **Web Development** with a growing love for **DevOps & Cloud**.
+- 🔭 Working on **Full-Stack Web Apps & Cloud-Based Solutions**.
+- ⚙️ Exploring **Docker, Kubernetes, AWS, and CI/CD workflows**.
+- 🌱 Always learning and improving in **modern web & cloud technologies**.
 
 ---
 
@@ -31,39 +26,68 @@
 
 ---
 
-### 🧰 Tech & Tools
-<p align="left">
-  <!-- Languages -->
-  <img src="https://skillicons.dev/icons?i=js,ts,python,html,css" height="35"/>
-  <!-- Frameworks -->
-  <img src="https://skillicons.dev/icons?i=react,next,tailwind,nodejs" height="35"/>
-  <!-- DevOps -->
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,linux,nginx" height="35"/>
+## 🧰 Tech & Tools
 
-  <!-- Cloud -->
-  <img src="https://skillicons.dev/icons?i=aws,gcp" height="35"/>
-
-  <!-- Databases -->
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,firebase" height="35"/>
-
-  <!-- Tools -->
-  <img src="https://skillicons.dev/icons?i=git,vscode,figma" height="35"/>
-</p>
+<table>
+  <tr>
+    <td><strong>Languages</strong></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=js,ts,python,html,css" height="32" />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Frameworks</strong></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=react,next,tailwind,nodejs" height="32" />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>DevOps</strong></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,linux,nginx" height="32" />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Cloud</strong></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=aws,gcp" height="32" />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Databases</strong></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=mongodb,mysql,firebase" height="32" />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Tools</strong></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=git,vscode,figma" height="32" />
+    </td>
+  </tr>
+</table>
 
 ---
+
 <!--START_SECTION:oss-contributions-->
-### 🚀 Recent Open Source Contributions
+## 🚀 Open Source Dashboard
 
-#### ✅ Merged Pull Requests · 12 total
+### ✅ Merged Pull Requests · 12 total
 
-<div align="left">
-
-<a href="https://github.com/jenkins-infra" title="jenkins-infra: 5 PR(s)"><img src="https://github.com/jenkins-infra.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="jenkins-infra"/></a>
-<a href="https://github.com/github" title="github: 3 PR(s)"><img src="https://github.com/github.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="github"/></a>
-<a href="https://github.com/hiero-ledger" title="hiero-ledger: 3 PR(s)"><img src="https://github.com/hiero-ledger.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="hiero-ledger"/></a>
-<a href="https://github.com/AOSSIE-Org" title="AOSSIE-Org: 1 PR(s)"><img src="https://github.com/AOSSIE-Org.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="AOSSIE-Org"/></a>
-
-</div>
+<p align="left">
+  <a href="https://github.com/jenkins-infra" title="jenkins-infra: 5 PR(s)">
+    <img src="https://github.com/jenkins-infra.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="jenkins-infra"/>
+  </a>
+  <a href="https://github.com/github" title="github: 3 PR(s)">
+    <img src="https://github.com/github.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="github"/>
+  </a>
+  <a href="https://github.com/hiero-ledger" title="hiero-ledger: 3 PR(s)">
+    <img src="https://github.com/hiero-ledger.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="hiero-ledger"/>
+  </a>
+  <a href="https://github.com/AOSSIE-Org" title="AOSSIE-Org: 1 PR(s)">
+    <img src="https://github.com/AOSSIE-Org.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="AOSSIE-Org"/>
+  </a>
+</p>
 
 | Organization | Merged PRs |
 |---|---|
@@ -72,36 +96,26 @@
 | [hiero-ledger](https://github.com/hiero-ledger) | 3 |
 | [AOSSIE-Org](https://github.com/AOSSIE-Org) | 1 |
 
-#### 🔄 Active Pull Requests · 0 total
-
+### 🔄 Active Pull Requests · 0 total
 - No active PRs found.
 
-#### 🐛 Open Issues · 1 total
+### 🐛 Open Issues · 1 total
+- [[Beginner]: Refactor ContractFunctionResult to use ContractLogInfo::operator==](https://github.com/hiero-ledger/hiero-sdk-cpp/issues/1566) in [**hiero-ledger**](https://github.com/hiero-ledger)
 
-- [[Beginner]: Refactor ContractFunctionResult to use ContractLogInfo::operator==](https://github.com/hiero-ledger/hiero-sdk-cpp/issues/1566) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
-
-#### ✔️ Closed Issues · 2 total
-
+### ✔️ Closed Issues · 2 total
 - [404 on plugin sql refrenence link](https://github.com/github/awesome-copilot/issues/1527) in [**github**](https://github.com/github) / [awesome-copilot](https://github.com/github/awesome-copilot)
 - [make check fails on macOS:scripts/check-typos  syntax error](https://github.com/jenkins-infra/jenkins.io/issues/8930) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
-_Last updated: Wed May  6 19:15:15 UTC 2026_ 
+_Last updated: Wed May  6 19:15:15 UTC 2026_
 <!--END_SECTION:oss-contributions-->
 
 ---
 
-### 🔥 GitHub Streak
+## 🔥 GitHub Streak
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=utkarsh232005&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
 
-### 🌐 Connect
-<p align="center">
-  <a href="https://linkedin.com/in/utkarsh-patrikar">LinkedIn</a> •
-  <!-- <a href="https://github.com/utkarsh232005">GitHub</a> • -->
-  <a href="mailto:utkarshpatrikar@gmail.com">Email</a> •
-  <a href="https://utkarshpatrikar.me">Portfolio</a>
-</p>
 <p align="center">🚀 "Code, Deploy, Automate & Scale!" 🚀</p>
