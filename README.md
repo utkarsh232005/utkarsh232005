@@ -70,24 +70,18 @@
 ---
 
 <!--START_SECTION:oss-contributions-->
-## 🚀 Open Source Dashboard
+### 🚀 Recent Open Source Contributions
 
-### ✅ Merged Pull Requests · 12 total
+#### ✅ Merged Pull Requests · 12 total
 
-<p align="left">
-  <a href="https://github.com/jenkins-infra" title="jenkins-infra: 5 PR(s)">
-    <img src="https://github.com/jenkins-infra.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="jenkins-infra"/>
-  </a>
-  <a href="https://github.com/github" title="github: 3 PR(s)">
-    <img src="https://github.com/github.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="github"/>
-  </a>
-  <a href="https://github.com/hiero-ledger" title="hiero-ledger: 3 PR(s)">
-    <img src="https://github.com/hiero-ledger.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="hiero-ledger"/>
-  </a>
-  <a href="https://github.com/AOSSIE-Org" title="AOSSIE-Org: 1 PR(s)">
-    <img src="https://github.com/AOSSIE-Org.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="AOSSIE-Org"/>
-  </a>
-</p>
+<div align="left">
+
+<a href="https://github.com/jenkins-infra" title="jenkins-infra: 5 PR(s)"><img src="https://github.com/jenkins-infra.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="jenkins-infra"/></a>
+<a href="https://github.com/github" title="github: 3 PR(s)"><img src="https://github.com/github.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="github"/></a>
+<a href="https://github.com/hiero-ledger" title="hiero-ledger: 3 PR(s)"><img src="https://github.com/hiero-ledger.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="hiero-ledger"/></a>
+<a href="https://github.com/AOSSIE-Org" title="AOSSIE-Org: 1 PR(s)"><img src="https://github.com/AOSSIE-Org.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="AOSSIE-Org"/></a>
+
+</div>
 
 | Organization | Merged PRs |
 |---|---|
@@ -96,17 +90,21 @@
 | [hiero-ledger](https://github.com/hiero-ledger) | 3 |
 | [AOSSIE-Org](https://github.com/AOSSIE-Org) | 1 |
 
-### 🔄 Active Pull Requests · 0 total
-- No active PRs found.
+#### 🔄 Active Pull Requests · 1 total
 
-### 🐛 Open Issues · 1 total
-- [[Beginner]: Refactor ContractFunctionResult to use ContractLogInfo::operator==](https://github.com/hiero-ledger/hiero-sdk-cpp/issues/1566) in [**hiero-ledger**](https://github.com/hiero-ledger)
+- [refactor: use ContractLogInfo::operator== in ContractFunctionResult](https://github.com/hiero-ledger/hiero-sdk-cpp/pull/1583) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
 
-### ✔️ Closed Issues · 2 total
+#### 🐛 Open Issues · 2 total
+
+- [Build Failure: [[nodiscard]] attribute on friend functions causes compilation errors in Clang](https://github.com/hiero-ledger/hiero-sdk-cpp/issues/1586) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
+- [[Beginner]: Refactor ContractFunctionResult to use ContractLogInfo::operator==](https://github.com/hiero-ledger/hiero-sdk-cpp/issues/1566) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
+
+#### ✔️ Closed Issues · 2 total
+
+- [Build Failure: [[nodiscard]] attribute on friend functions causes compilation errors in Clang](https://github.com/hiero-ledger/hiero-sdk-cpp/issues/1584) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
 - [404 on plugin sql refrenence link](https://github.com/github/awesome-copilot/issues/1527) in [**github**](https://github.com/github) / [awesome-copilot](https://github.com/github/awesome-copilot)
-- [make check fails on macOS:scripts/check-typos  syntax error](https://github.com/jenkins-infra/jenkins.io/issues/8930) in [**jenkins-infra**](https://github.com/jenkins-infra) / [jenkins.io](https://github.com/jenkins-infra/jenkins.io)
 
-_Last updated: Wed May  6 19:15:15 UTC 2026_
+_Last updated: Thu May  7 01:26:08 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
