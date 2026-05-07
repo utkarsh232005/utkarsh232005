@@ -72,13 +72,13 @@
 <!--START_SECTION:oss-contributions-->
 ### 🚀 Recent Open Source Contributions
 
-#### ✅ Merged Pull Requests · 12 total
+#### ✅ Merged Pull Requests · 13 total
 
 <div align="left">
 
 <a href="https://github.com/jenkins-infra" title="jenkins-infra: 5 PR(s)"><img src="https://github.com/jenkins-infra.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="jenkins-infra"/></a>
+<a href="https://github.com/hiero-ledger" title="hiero-ledger: 4 PR(s)"><img src="https://github.com/hiero-ledger.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="hiero-ledger"/></a>
 <a href="https://github.com/github" title="github: 3 PR(s)"><img src="https://github.com/github.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="github"/></a>
-<a href="https://github.com/hiero-ledger" title="hiero-ledger: 3 PR(s)"><img src="https://github.com/hiero-ledger.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="hiero-ledger"/></a>
 <a href="https://github.com/AOSSIE-Org" title="AOSSIE-Org: 1 PR(s)"><img src="https://github.com/AOSSIE-Org.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="AOSSIE-Org"/></a>
 
 </div>
@@ -86,26 +86,26 @@
 | Organization | Merged PRs |
 |---|---|
 | [jenkins-infra](https://github.com/jenkins-infra) | 5 |
+| [hiero-ledger](https://github.com/hiero-ledger) | 4 |
 | [github](https://github.com/github) | 3 |
-| [hiero-ledger](https://github.com/hiero-ledger) | 3 |
 | [AOSSIE-Org](https://github.com/AOSSIE-Org) | 1 |
 
-#### 🔄 Active Pull Requests · 1 total
+#### 🔄 Active Pull Requests · 0 total
 
-- [refactor: use ContractLogInfo::operator== in ContractFunctionResult](https://github.com/hiero-ledger/hiero-sdk-cpp/pull/1583) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
+- No active PRs found.
 
-#### 🐛 Open Issues · 3 total
+#### 🐛 Open Issues · 1 total
 
 - [ContractFunctionResult._to_proto() silently sends signer_nonce=0 when it should be omitted](https://github.com/hiero-ledger/hiero-sdk-python/issues/2251) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-python](https://github.com/hiero-ledger/hiero-sdk-python)
+
+#### ✔️ Closed Issues · 4 total
+
 - [Build Failure: [[nodiscard]] attribute on friend functions causes compilation errors in Clang](https://github.com/hiero-ledger/hiero-sdk-cpp/issues/1586) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
-- [[Beginner]: Refactor ContractFunctionResult to use ContractLogInfo::operator==](https://github.com/hiero-ledger/hiero-sdk-cpp/issues/1566) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
-
-#### ✔️ Closed Issues · 2 total
-
 - [Build Failure: [[nodiscard]] attribute on friend functions causes compilation errors in Clang](https://github.com/hiero-ledger/hiero-sdk-cpp/issues/1584) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
+- [[Beginner]: Refactor ContractFunctionResult to use ContractLogInfo::operator==](https://github.com/hiero-ledger/hiero-sdk-cpp/issues/1566) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
 - [404 on plugin sql refrenence link](https://github.com/github/awesome-copilot/issues/1527) in [**github**](https://github.com/github) / [awesome-copilot](https://github.com/github/awesome-copilot)
 
-_Last updated: Thu May  7 13:21:53 UTC 2026_ 
+_Last updated: Thu May  7 19:16:41 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
