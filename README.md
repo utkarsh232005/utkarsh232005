@@ -94,8 +94,9 @@
 
 - [refactor: use ContractLogInfo::operator== in ContractFunctionResult](https://github.com/hiero-ledger/hiero-sdk-cpp/pull/1583) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
 
-#### 🐛 Open Issues · 2 total
+#### 🐛 Open Issues · 3 total
 
+- [ContractFunctionResult._to_proto() silently sends signer_nonce=0 when it should be omitted](https://github.com/hiero-ledger/hiero-sdk-python/issues/2251) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-python](https://github.com/hiero-ledger/hiero-sdk-python)
 - [Build Failure: [[nodiscard]] attribute on friend functions causes compilation errors in Clang](https://github.com/hiero-ledger/hiero-sdk-cpp/issues/1586) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
 - [[Beginner]: Refactor ContractFunctionResult to use ContractLogInfo::operator==](https://github.com/hiero-ledger/hiero-sdk-cpp/issues/1566) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
 
@@ -104,7 +105,7 @@
 - [Build Failure: [[nodiscard]] attribute on friend functions causes compilation errors in Clang](https://github.com/hiero-ledger/hiero-sdk-cpp/issues/1584) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
 - [404 on plugin sql refrenence link](https://github.com/github/awesome-copilot/issues/1527) in [**github**](https://github.com/github) / [awesome-copilot](https://github.com/github/awesome-copilot)
 
-_Last updated: Thu May  7 08:07:51 UTC 2026_ 
+_Last updated: Thu May  7 13:21:53 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
