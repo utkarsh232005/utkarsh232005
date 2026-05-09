@@ -90,9 +90,9 @@
 | [github](https://github.com/github) | 3 |
 | [AOSSIE-Org](https://github.com/AOSSIE-Org) | 1 |
 
-#### 🔄 Active Pull Requests · 0 total
+#### 🔄 Active Pull Requests · 1 total
 
-- No active PRs found.
+- [feat: add operator== to PendingAirdropRecord](https://github.com/hiero-ledger/hiero-sdk-cpp/pull/1624) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
 
 #### 🐛 Open Issues · 1 total
 
@@ -105,7 +105,7 @@
 - [[Beginner]: Refactor ContractFunctionResult to use ContractLogInfo::operator==](https://github.com/hiero-ledger/hiero-sdk-cpp/issues/1566) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
 - [404 on plugin sql refrenence link](https://github.com/github/awesome-copilot/issues/1527) in [**github**](https://github.com/github) / [awesome-copilot](https://github.com/github/awesome-copilot)
 
-_Last updated: Sat May  9 12:43:53 UTC 2026_ 
+_Last updated: Sat May  9 18:39:24 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
