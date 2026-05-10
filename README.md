@@ -94,8 +94,9 @@
 
 - [feat: add operator== to PendingAirdropRecord](https://github.com/hiero-ledger/hiero-sdk-cpp/pull/1624) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
 
-#### 🐛 Open Issues · 1 total
+#### 🐛 Open Issues · 2 total
 
+- [commands not working](https://github.com/utkarsh232005/KDM-Cli/issues/1) in [**utkarsh232005**](https://github.com/utkarsh232005) / [KDM-Cli](https://github.com/utkarsh232005/KDM-Cli)
 - [ContractFunctionResult._to_proto() silently sends signer_nonce=0 when it should be omitted](https://github.com/hiero-ledger/hiero-sdk-python/issues/2251) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-python](https://github.com/hiero-ledger/hiero-sdk-python)
 
 #### ✔️ Closed Issues · 4 total
@@ -105,7 +106,7 @@
 - [[Beginner]: Refactor ContractFunctionResult to use ContractLogInfo::operator==](https://github.com/hiero-ledger/hiero-sdk-cpp/issues/1566) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
 - [404 on plugin sql refrenence link](https://github.com/github/awesome-copilot/issues/1527) in [**github**](https://github.com/github) / [awesome-copilot](https://github.com/github/awesome-copilot)
 
-_Last updated: Sun May 10 01:27:35 UTC 2026_ 
+_Last updated: Sun May 10 07:50:04 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
