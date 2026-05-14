@@ -96,21 +96,21 @@
 
 #### 🐛 Open Issues · 5 total
 
+- [Auto Version Checking & Update Prompt for New Releases](https://github.com/KDM-cli/kdm-cli/issues/26) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-cli](https://github.com/KDM-cli/kdm-cli)
+- [Documentation: Introduce Versioned Command Documentation Structure](https://github.com/KDM-cli/kdm-cli/issues/25) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-cli](https://github.com/KDM-cli/kdm-cli)
+- [Improvement: Make `kdm config setup` the Default Configuration Flow](https://github.com/KDM-cli/kdm-cli/issues/24) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-cli](https://github.com/KDM-cli/kdm-cli)
+- [Feature Request: Add Guided Credential Setup Instructions for Services](https://github.com/KDM-cli/kdm-cli/issues/22) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-cli](https://github.com/KDM-cli/kdm-cli)
 - [Add Auto-Labeling GitHub Actions Configuration](https://github.com/KDM-cli/kdm-cli/issues/3) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-cli](https://github.com/KDM-cli/kdm-cli)
-- [add auto labeling github actions configuration](https://github.com/KDM-cli/kdm-website/issues/2) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-website](https://github.com/KDM-cli/kdm-website)
-- [issues in command](https://github.com/KDM-cli/kdm-cli/issues/1) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-cli](https://github.com/KDM-cli/kdm-cli)
-- [commands not working](https://github.com/utkarsh232005/KDM-Cli/issues/1) in [**utkarsh232005**](https://github.com/utkarsh232005) / [KDM-Cli](https://github.com/utkarsh232005/KDM-Cli)
-- [ContractFunctionResult._to_proto() silently sends signer_nonce=0 when it should be omitted](https://github.com/hiero-ledger/hiero-sdk-python/issues/2251) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-python](https://github.com/hiero-ledger/hiero-sdk-python)
 
 #### ✔️ Closed Issues · 5 total
 
+- [Bug: `kdm` Command Not Found After Global Installation](https://github.com/KDM-cli/kdm-cli/issues/19) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-cli](https://github.com/KDM-cli/kdm-cli)
 - [KDM show runner is not wokring](https://github.com/KDM-cli/kdm-cli/issues/12) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-cli](https://github.com/KDM-cli/kdm-cli)
 - [LTS verison issue](https://github.com/KDM-cli/kdm-cli/issues/5) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-cli](https://github.com/KDM-cli/kdm-cli)
 - [Build Failure: [[nodiscard]] attribute on friend functions causes compilation errors in Clang](https://github.com/hiero-ledger/hiero-sdk-cpp/issues/1586) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
 - [Build Failure: [[nodiscard]] attribute on friend functions causes compilation errors in Clang](https://github.com/hiero-ledger/hiero-sdk-cpp/issues/1584) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
-- [[Beginner]: Refactor ContractFunctionResult to use ContractLogInfo::operator==](https://github.com/hiero-ledger/hiero-sdk-cpp/issues/1566) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
 
-_Last updated: Thu May 14 08:21:12 UTC 2026_ 
+_Last updated: Thu May 14 13:20:40 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
