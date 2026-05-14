@@ -96,21 +96,21 @@
 
 #### 🐛 Open Issues · 5 total
 
-- [KDM show runner is not wokring](https://github.com/KDM-cli/kdm-cli/issues/12) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-cli](https://github.com/KDM-cli/kdm-cli)
 - [Add Auto-Labeling GitHub Actions Configuration](https://github.com/KDM-cli/kdm-cli/issues/3) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-cli](https://github.com/KDM-cli/kdm-cli)
 - [add auto labeling github actions configuration](https://github.com/KDM-cli/kdm-website/issues/2) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-website](https://github.com/KDM-cli/kdm-website)
 - [issues in command](https://github.com/KDM-cli/kdm-cli/issues/1) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-cli](https://github.com/KDM-cli/kdm-cli)
 - [commands not working](https://github.com/utkarsh232005/KDM-Cli/issues/1) in [**utkarsh232005**](https://github.com/utkarsh232005) / [KDM-Cli](https://github.com/utkarsh232005/KDM-Cli)
+- [ContractFunctionResult._to_proto() silently sends signer_nonce=0 when it should be omitted](https://github.com/hiero-ledger/hiero-sdk-python/issues/2251) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-python](https://github.com/hiero-ledger/hiero-sdk-python)
 
 #### ✔️ Closed Issues · 5 total
 
+- [KDM show runner is not wokring](https://github.com/KDM-cli/kdm-cli/issues/12) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-cli](https://github.com/KDM-cli/kdm-cli)
 - [LTS verison issue](https://github.com/KDM-cli/kdm-cli/issues/5) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-cli](https://github.com/KDM-cli/kdm-cli)
 - [Build Failure: [[nodiscard]] attribute on friend functions causes compilation errors in Clang](https://github.com/hiero-ledger/hiero-sdk-cpp/issues/1586) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
 - [Build Failure: [[nodiscard]] attribute on friend functions causes compilation errors in Clang](https://github.com/hiero-ledger/hiero-sdk-cpp/issues/1584) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
 - [[Beginner]: Refactor ContractFunctionResult to use ContractLogInfo::operator==](https://github.com/hiero-ledger/hiero-sdk-cpp/issues/1566) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
-- [404 on plugin sql refrenence link](https://github.com/github/awesome-copilot/issues/1527) in [**github**](https://github.com/github) / [awesome-copilot](https://github.com/github/awesome-copilot)
 
-_Last updated: Thu May 14 01:49:30 UTC 2026_ 
+_Last updated: Thu May 14 08:21:12 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
