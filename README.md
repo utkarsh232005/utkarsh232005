@@ -94,23 +94,15 @@
 
 - [feat: add operator== to PendingAirdropRecord](https://github.com/hiero-ledger/hiero-sdk-cpp/pull/1624) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
 
-#### 🐛 Open Issues · 5 total
+#### 🐛 Open Issues · 1 total
 
 - [Update the documentation](https://github.com/KDM-cli/kdm-website/issues/3) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-website](https://github.com/KDM-cli/kdm-website)
-- [Auto Version Checking & Update Prompt for New Releases](https://github.com/KDM-cli/kdm-cli/issues/26) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-cli](https://github.com/KDM-cli/kdm-cli)
-- [Improvement: Make `kdm config setup` the Default Configuration Flow](https://github.com/KDM-cli/kdm-cli/issues/24) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-cli](https://github.com/KDM-cli/kdm-cli)
-- [Add Auto-Labeling GitHub Actions Configuration](https://github.com/KDM-cli/kdm-cli/issues/3) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-cli](https://github.com/KDM-cli/kdm-cli)
-- [add auto labeling github actions configuration](https://github.com/KDM-cli/kdm-website/issues/2) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-website](https://github.com/KDM-cli/kdm-website)
 
-#### ✔️ Closed Issues · 5 total
+#### ✔️ Closed Issues · 0 total
 
-- [Documentation: Introduce Versioned Command Documentation Structure](https://github.com/KDM-cli/kdm-cli/issues/25) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-cli](https://github.com/KDM-cli/kdm-cli)
-- [Feature Request: Add Guided Credential Setup Instructions for Services](https://github.com/KDM-cli/kdm-cli/issues/22) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-cli](https://github.com/KDM-cli/kdm-cli)
-- [Bug: `kdm` Command Not Found After Global Installation](https://github.com/KDM-cli/kdm-cli/issues/19) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-cli](https://github.com/KDM-cli/kdm-cli)
-- [KDM show runner is not wokring](https://github.com/KDM-cli/kdm-cli/issues/12) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-cli](https://github.com/KDM-cli/kdm-cli)
-- [LTS verison issue](https://github.com/KDM-cli/kdm-cli/issues/5) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-cli](https://github.com/KDM-cli/kdm-cli)
+- No closed issues found.
 
-_Last updated: Sat May 16 12:49:35 UTC 2026_ 
+_Last updated: Sat May 16 15:27:35 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
