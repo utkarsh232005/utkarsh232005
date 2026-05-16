@@ -90,8 +90,11 @@
 | [github](https://github.com/github) | 3 |
 | [AOSSIE-Org](https://github.com/AOSSIE-Org) | 1 |
 
-#### 🔄 Active Pull Requests · 1 total
+#### 🔄 Active Pull Requests · 4 total
 
+- [Fix signer_nonce serialization in ContractFunctionResult](https://github.com/hiero-ledger/hiero-sdk-python/pull/2293) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-python](https://github.com/hiero-ledger/hiero-sdk-python)
+- [refactor: extract bot inactivity comment builders to bot-inactivity-comments.js](https://github.com/hiero-ledger/hiero-sdk-cpp/pull/1654) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
+- [docs: Add Hiero Ruhrgebiet meetup announcement blog post](https://github.com/hiero-ledger/hiero-website/pull/436) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-website](https://github.com/hiero-ledger/hiero-website)
 - [feat: add operator== to PendingAirdropRecord](https://github.com/hiero-ledger/hiero-sdk-cpp/pull/1624) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
 
 #### 🐛 Open Issues · 1 total
@@ -102,7 +105,7 @@
 
 - No closed issues found.
 
-_Last updated: Sat May 16 15:27:35 UTC 2026_ 
+_Last updated: Sat May 16 18:43:31 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
