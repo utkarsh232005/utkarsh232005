@@ -72,12 +72,12 @@
 <!--START_SECTION:oss-contributions-->
 ### 🚀 Recent Open Source Contributions
 
-#### ✅ Merged Pull Requests · 13 total
+#### ✅ Merged Pull Requests · 14 total
 
 <div align="left">
 
+<a href="https://github.com/hiero-ledger" title="hiero-ledger: 5 PR(s)"><img src="https://github.com/hiero-ledger.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="hiero-ledger"/></a>
 <a href="https://github.com/jenkins-infra" title="jenkins-infra: 5 PR(s)"><img src="https://github.com/jenkins-infra.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="jenkins-infra"/></a>
-<a href="https://github.com/hiero-ledger" title="hiero-ledger: 4 PR(s)"><img src="https://github.com/hiero-ledger.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="hiero-ledger"/></a>
 <a href="https://github.com/github" title="github: 3 PR(s)"><img src="https://github.com/github.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="github"/></a>
 <a href="https://github.com/AOSSIE-Org" title="AOSSIE-Org: 1 PR(s)"><img src="https://github.com/AOSSIE-Org.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="AOSSIE-Org"/></a>
 
@@ -85,14 +85,13 @@
 
 | Organization | Merged PRs |
 |---|---|
+| [hiero-ledger](https://github.com/hiero-ledger) | 5 |
 | [jenkins-infra](https://github.com/jenkins-infra) | 5 |
-| [hiero-ledger](https://github.com/hiero-ledger) | 4 |
 | [github](https://github.com/github) | 3 |
 | [AOSSIE-Org](https://github.com/AOSSIE-Org) | 1 |
 
-#### 🔄 Active Pull Requests · 4 total
+#### 🔄 Active Pull Requests · 3 total
 
-- [Fix signer_nonce serialization in ContractFunctionResult](https://github.com/hiero-ledger/hiero-sdk-python/pull/2293) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-python](https://github.com/hiero-ledger/hiero-sdk-python)
 - [refactor: extract bot inactivity comment builders to bot-inactivity-comments.js](https://github.com/hiero-ledger/hiero-sdk-cpp/pull/1654) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
 - [docs: Add Hiero Ruhrgebiet meetup announcement blog post](https://github.com/hiero-ledger/hiero-website/pull/436) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-website](https://github.com/hiero-ledger/hiero-website)
 - [feat: add operator== to PendingAirdropRecord](https://github.com/hiero-ledger/hiero-sdk-cpp/pull/1624) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
@@ -105,7 +104,7 @@
 
 - No closed issues found.
 
-_Last updated: Mon May 18 09:32:05 UTC 2026_ 
+_Last updated: Mon May 18 14:47:26 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
