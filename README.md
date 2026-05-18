@@ -96,15 +96,16 @@
 - [docs: Add Hiero Ruhrgebiet meetup announcement blog post](https://github.com/hiero-ledger/hiero-website/pull/436) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-website](https://github.com/hiero-ledger/hiero-website)
 - [feat: add operator== to PendingAirdropRecord](https://github.com/hiero-ledger/hiero-sdk-cpp/pull/1624) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
 
-#### 🐛 Open Issues · 1 total
+#### 🐛 Open Issues · 2 total
 
 - [Update the documentation](https://github.com/KDM-cli/kdm-website/issues/3) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-website](https://github.com/KDM-cli/kdm-website)
+- [add auto labeling github actions configuration](https://github.com/KDM-cli/kdm-website/issues/2) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-website](https://github.com/KDM-cli/kdm-website)
 
 #### ✔️ Closed Issues · 0 total
 
 - No closed issues found.
 
-_Last updated: Mon May 18 14:47:26 UTC 2026_ 
+_Last updated: Mon May 18 19:18:32 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
