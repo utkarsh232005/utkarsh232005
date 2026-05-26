@@ -72,38 +72,24 @@
 <!--START_SECTION:oss-contributions-->
 ### 🚀 Recent Open Source Contributions
 
-#### ✅ Merged Pull Requests · 12 total
+#### ✅ Merged Pull Requests · 0 total
 
-<div align="left">
-
-<a href="https://github.com/hiero-ledger" title="hiero-ledger: 6 PR(s)"><img src="https://github.com/hiero-ledger.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="hiero-ledger"/></a>
-<a href="https://github.com/github" title="github: 3 PR(s)"><img src="https://github.com/github.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="github"/></a>
-<a href="https://github.com/jenkins-infra" title="jenkins-infra: 3 PR(s)"><img src="https://github.com/jenkins-infra.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="jenkins-infra"/></a>
-
-</div>
-
-| Organization | Merged PRs |
-|---|---|
-| [hiero-ledger](https://github.com/hiero-ledger) | 6 |
-| [github](https://github.com/github) | 3 |
-| [jenkins-infra](https://github.com/jenkins-infra) | 3 |
+- No merged PRs found.
 
 #### 🔄 Active Pull Requests · 2 total
 
 - [refactor: extract bot inactivity comment builders to bot-inactivity-comments.js](https://github.com/hiero-ledger/hiero-sdk-cpp/pull/1654) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
 - [feat: add operator== to PendingAirdropRecord](https://github.com/hiero-ledger/hiero-sdk-cpp/pull/1624) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
 
-#### 🐛 Open Issues · 3 total
+#### 🐛 Open Issues · 0 total
 
-- [fix: Improve website responsiveness across mobile and tablet viewports](https://github.com/KDM-cli/kdm-website/issues/4) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-website](https://github.com/KDM-cli/kdm-website)
-- [Update the documentation](https://github.com/KDM-cli/kdm-website/issues/3) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-website](https://github.com/KDM-cli/kdm-website)
-- [add auto labeling github actions configuration](https://github.com/KDM-cli/kdm-website/issues/2) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-website](https://github.com/KDM-cli/kdm-website)
+- No open issues found.
 
 #### ✔️ Closed Issues · 0 total
 
 - No closed issues found.
 
-_Last updated: Tue May 26 07:02:23 UTC 2026_ 
+_Last updated: Tue May 26 12:49:45 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
