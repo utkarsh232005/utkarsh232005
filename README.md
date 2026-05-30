@@ -89,8 +89,9 @@
 - [refactor: extract bot inactivity comment builders to bot-inactivity-comments.js](https://github.com/hiero-ledger/hiero-sdk-cpp/pull/1654) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
 - [feat: add operator== to PendingAirdropRecord](https://github.com/hiero-ledger/hiero-sdk-cpp/pull/1624) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
 
-#### 🐛 Open Issues · 2 total
+#### 🐛 Open Issues · 3 total
 
+- [Feat: Redesign website to support dual-product architecture and documentation](https://github.com/KDM-cli/kdm-website/issues/14) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-website](https://github.com/KDM-cli/kdm-website)
 - [Update the documentation](https://github.com/KDM-cli/kdm-website/issues/3) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-website](https://github.com/KDM-cli/kdm-website)
 - [add auto labeling github actions configuration](https://github.com/KDM-cli/kdm-website/issues/2) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-website](https://github.com/KDM-cli/kdm-website)
 
@@ -100,7 +101,7 @@
 - [UI/UX Updates: Favicon, Footer Organization Name, and Dynamic Buttons](https://github.com/KDM-cli/kdm-website/issues/6) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-website](https://github.com/KDM-cli/kdm-website)
 - [fix: Improve website responsiveness across mobile and tablet viewports](https://github.com/KDM-cli/kdm-website/issues/4) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-website](https://github.com/KDM-cli/kdm-website)
 
-_Last updated: Sat May 30 12:18:24 UTC 2026_ 
+_Last updated: Sat May 30 18:17:08 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
