@@ -72,17 +72,17 @@
 <!--START_SECTION:oss-contributions-->
 ### 🚀 Recent Open Source Contributions
 
-#### ✅ Merged Pull Requests · 2 total
+#### ✅ Merged Pull Requests · 1 total
 
 <div align="left">
 
-<a href="https://github.com/hiero-ledger" title="hiero-ledger: 2 PR(s)"><img src="https://github.com/hiero-ledger.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="hiero-ledger"/></a>
+<a href="https://github.com/hiero-ledger" title="hiero-ledger: 1 PR(s)"><img src="https://github.com/hiero-ledger.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="hiero-ledger"/></a>
 
 </div>
 
 | Organization | Merged PRs |
 |---|---|
-| [hiero-ledger](https://github.com/hiero-ledger) | 2 |
+| [hiero-ledger](https://github.com/hiero-ledger) | 1 |
 
 #### 🔄 Active Pull Requests · 2 total
 
@@ -101,7 +101,7 @@
 - [UI/UX Updates: Favicon, Footer Organization Name, and Dynamic Buttons](https://github.com/KDM-cli/kdm-website/issues/6) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-website](https://github.com/KDM-cli/kdm-website)
 - [fix: Improve website responsiveness across mobile and tablet viewports](https://github.com/KDM-cli/kdm-website/issues/4) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-website](https://github.com/KDM-cli/kdm-website)
 
-_Last updated: Mon Jun  1 13:49:23 UTC 2026_ 
+_Last updated: Mon Jun  1 19:33:44 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
