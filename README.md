@@ -72,36 +72,28 @@
 <!--START_SECTION:oss-contributions-->
 ### 🚀 Recent Open Source Contributions
 
-#### ✅ Merged Pull Requests · 1 total
+#### ✅ Merged Pull Requests · 0 total
 
-<div align="left">
-
-<a href="https://github.com/hiero-ledger" title="hiero-ledger: 1 PR(s)"><img src="https://github.com/hiero-ledger.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="hiero-ledger"/></a>
-
-</div>
-
-| Organization | Merged PRs |
-|---|---|
-| [hiero-ledger](https://github.com/hiero-ledger) | 1 |
+- No merged PRs found.
 
 #### 🔄 Active Pull Requests · 2 total
 
 - [refactor: extract bot inactivity comment builders to bot-inactivity-comments.js](https://github.com/hiero-ledger/hiero-sdk-cpp/pull/1654) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
 - [feat: add operator== to PendingAirdropRecord](https://github.com/hiero-ledger/hiero-sdk-cpp/pull/1624) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
 
-#### 🐛 Open Issues · 3 total
+#### 🐛 Open Issues · 2 total
 
-- [Feat: Redesign website to support dual-product architecture and documentation](https://github.com/KDM-cli/kdm-website/issues/14) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-website](https://github.com/KDM-cli/kdm-website)
 - [Update the documentation](https://github.com/KDM-cli/kdm-website/issues/3) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-website](https://github.com/KDM-cli/kdm-website)
 - [add auto labeling github actions configuration](https://github.com/KDM-cli/kdm-website/issues/2) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-website](https://github.com/KDM-cli/kdm-website)
 
-#### ✔️ Closed Issues · 3 total
+#### ✔️ Closed Issues · 4 total
 
+- [Feat: Redesign website to support dual-product architecture and documentation](https://github.com/KDM-cli/kdm-website/issues/14) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-website](https://github.com/KDM-cli/kdm-website)
 - [Create Readme](https://github.com/KDM-cli/kdm-website/issues/10) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-website](https://github.com/KDM-cli/kdm-website)
 - [UI/UX Updates: Favicon, Footer Organization Name, and Dynamic Buttons](https://github.com/KDM-cli/kdm-website/issues/6) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-website](https://github.com/KDM-cli/kdm-website)
 - [fix: Improve website responsiveness across mobile and tablet viewports](https://github.com/KDM-cli/kdm-website/issues/4) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-website](https://github.com/KDM-cli/kdm-website)
 
-_Last updated: Fri Jun  5 07:19:10 UTC 2026_ 
+_Last updated: Fri Jun  5 12:51:26 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
