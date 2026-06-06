@@ -72,29 +72,37 @@
 <!--START_SECTION:oss-contributions-->
 ### 🚀 Recent Open Source Contributions
 
-#### ✅ Merged Pull Requests · 0 total
+#### ✅ Merged Pull Requests · 15 total
 
-- No merged PRs found.
+<div align="left">
 
-#### 🔄 Active Pull Requests · 2 total
+<a href="https://github.com/hiero-ledger" title="hiero-ledger: 6 PR(s)"><img src="https://github.com/hiero-ledger.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="hiero-ledger"/></a>
+<a href="https://github.com/jenkins-infra" title="jenkins-infra: 5 PR(s)"><img src="https://github.com/jenkins-infra.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="jenkins-infra"/></a>
+<a href="https://github.com/github" title="github: 3 PR(s)"><img src="https://github.com/github.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="github"/></a>
+<a href="https://github.com/AOSSIE-Org" title="AOSSIE-Org: 1 PR(s)"><img src="https://github.com/AOSSIE-Org.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="AOSSIE-Org"/></a>
 
-- [refactor: extract bot inactivity comment builders to bot-inactivity-comments.js](https://github.com/hiero-ledger/hiero-sdk-cpp/pull/1654) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
-- [feat: add operator== to PendingAirdropRecord](https://github.com/hiero-ledger/hiero-sdk-cpp/pull/1624) in [**hiero-ledger**](https://github.com/hiero-ledger) / [hiero-sdk-cpp](https://github.com/hiero-ledger/hiero-sdk-cpp)
+</div>
 
-#### 🐛 Open Issues · 3 total
+| Organization | Merged PRs |
+|---|---|
+| [hiero-ledger](https://github.com/hiero-ledger) | 6 |
+| [jenkins-infra](https://github.com/jenkins-infra) | 5 |
+| [github](https://github.com/github) | 3 |
+| [AOSSIE-Org](https://github.com/AOSSIE-Org) | 1 |
 
-- [Need Testing](https://github.com/KDM-cli/kdc-cli/issues/36) in [**KDM-cli**](https://github.com/KDM-cli) / [kdc-cli](https://github.com/KDM-cli/kdc-cli)
-- [Update the documentation](https://github.com/KDM-cli/kdm-website/issues/3) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-website](https://github.com/KDM-cli/kdm-website)
-- [add auto labeling github actions configuration](https://github.com/KDM-cli/kdm-website/issues/2) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-website](https://github.com/KDM-cli/kdm-website)
+#### 🔄 Active Pull Requests · 0 total
 
-#### ✔️ Closed Issues · 4 total
+- No active PRs found.
 
-- [Feat: Redesign website to support dual-product architecture and documentation](https://github.com/KDM-cli/kdm-website/issues/14) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-website](https://github.com/KDM-cli/kdm-website)
-- [Create Readme](https://github.com/KDM-cli/kdm-website/issues/10) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-website](https://github.com/KDM-cli/kdm-website)
-- [UI/UX Updates: Favicon, Footer Organization Name, and Dynamic Buttons](https://github.com/KDM-cli/kdm-website/issues/6) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-website](https://github.com/KDM-cli/kdm-website)
-- [fix: Improve website responsiveness across mobile and tablet viewports](https://github.com/KDM-cli/kdm-website/issues/4) in [**KDM-cli**](https://github.com/KDM-cli) / [kdm-website](https://github.com/KDM-cli/kdm-website)
+#### 🐛 Open Issues · 0 total
 
-_Last updated: Sat Jun  6 12:20:03 UTC 2026_ 
+- No open issues found.
+
+#### ✔️ Closed Issues · 0 total
+
+- No closed issues found.
+
+_Last updated: Sat Jun  6 16:39:20 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
 ---
