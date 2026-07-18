@@ -38,14 +38,11 @@
 <br/>
 
 <div align="center">
-  <a href="https://github.com/hiero-ledger" title="hiero-ledger: 6 PR(s)"><img src="https://github.com/hiero-ledger.png?size=32" width="32" height="32" style="border-radius:6px;margin:2px" alt="hiero-ledger"/></a>
-  <a href="https://github.com/jenkins-infra" title="jenkins-infra: 5 PR(s)"><img src="https://github.com/jenkins-infra.png?size=32" width="32" height="32" style="border-radius:6px;margin:2px" alt="jenkins-infra"/></a>
-  <a href="https://github.com/github" title="github: 4 PR(s)"><img src="https://github.com/github.png?size=32" width="32" height="32" style="border-radius:6px;margin:2px" alt="github"/></a>
-  <a href="https://github.com/AOSSIE-Org" title="AOSSIE-Org: 1 PR(s)"><img src="https://github.com/AOSSIE-Org.png?size=32" width="32" height="32" style="border-radius:6px;margin:2px" alt="AOSSIE-Org"/></a>
+  <a href="https://github.com/hiero-ledger" title="hiero-ledger: 1 PR(s)"><img src="https://github.com/hiero-ledger.png?size=32" width="32" height="32" style="border-radius:6px;margin:2px" alt="hiero-ledger"/></a>
 </div>
 
 <div align="center">
-  <i>Last updated: Sat Jul 18 13:02:48 UTC 2026</i>
+  <i>Last updated: Sat Jul 18 13:04:30 UTC 2026</i>
 </div>
 <!--END_SECTION:oss-contributions-->
 
