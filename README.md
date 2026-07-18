@@ -31,24 +31,22 @@
 </div>
 
 <!--START_SECTION:oss-contributions-->
-### 🚀 Open Source Activity
-
-| Activity | Count | Details |
-| :--- | :---: | :--- |
-| **Merged Pull Requests** | **16** | `hiero-ledger` (6) • `jenkins-infra` (5) • `github` (4) • `AOSSIE-Org` (1) |
-| **Active Pull Requests** | **0** | _No active pull requests_ |
-| **Issues Summary** | **0** | _No active issues_ |
-
-<div align="left">
-
-<a href="https://github.com/hiero-ledger" title="hiero-ledger: 6 PR(s)"><img src="https://github.com/hiero-ledger.png?size=32" width="32" height="32" style="border-radius:6px;margin:2px" alt="hiero-ledger"/></a>
-<a href="https://github.com/jenkins-infra" title="jenkins-infra: 5 PR(s)"><img src="https://github.com/jenkins-infra.png?size=32" width="32" height="32" style="border-radius:6px;margin:2px" alt="jenkins-infra"/></a>
-<a href="https://github.com/github" title="github: 4 PR(s)"><img src="https://github.com/github.png?size=32" width="32" height="32" style="border-radius:6px;margin:2px" alt="github"/></a>
-<a href="https://github.com/AOSSIE-Org" title="AOSSIE-Org: 1 PR(s)"><img src="https://github.com/AOSSIE-Org.png?size=32" width="32" height="32" style="border-radius:6px;margin:2px" alt="AOSSIE-Org"/></a>
-
+<div align="center">
+  <img src="./oss-dashboard.svg" width="860" alt="Open Source Dashboard" />
 </div>
 
-_{Last updated: Sat Jul 18 13:00:42 UTC 2026}_
+<br/>
+
+<div align="center">
+  <a href="https://github.com/hiero-ledger" title="hiero-ledger: 6 PR(s)"><img src="https://github.com/hiero-ledger.png?size=32" width="32" height="32" style="border-radius:6px;margin:2px" alt="hiero-ledger"/></a>
+  <a href="https://github.com/jenkins-infra" title="jenkins-infra: 5 PR(s)"><img src="https://github.com/jenkins-infra.png?size=32" width="32" height="32" style="border-radius:6px;margin:2px" alt="jenkins-infra"/></a>
+  <a href="https://github.com/github" title="github: 4 PR(s)"><img src="https://github.com/github.png?size=32" width="32" height="32" style="border-radius:6px;margin:2px" alt="github"/></a>
+  <a href="https://github.com/AOSSIE-Org" title="AOSSIE-Org: 1 PR(s)"><img src="https://github.com/AOSSIE-Org.png?size=32" width="32" height="32" style="border-radius:6px;margin:2px" alt="AOSSIE-Org"/></a>
+</div>
+
+<div align="center">
+  <i>Last updated: Sat Jul 18 13:02:48 UTC 2026</i>
+</div>
 <!--END_SECTION:oss-contributions-->
 
 <div align="center">
