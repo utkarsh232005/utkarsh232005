@@ -31,39 +31,24 @@
 </div>
 
 <!--START_SECTION:oss-contributions-->
-### 🚀 Recent Open Source Contributions
+### 🚀 Open Source Activity
 
-#### ✅ Merged Pull Requests · 16 total
+| Activity | Count | Details |
+| :--- | :---: | :--- |
+| **Merged Pull Requests** | **16** | `hiero-ledger` (6) • `jenkins-infra` (5) • `github` (4) • `AOSSIE-Org` (1) |
+| **Active Pull Requests** | **0** | _No active pull requests_ |
+| **Issues Summary** | **0** | _No active issues_ |
 
 <div align="left">
 
-<a href="https://github.com/hiero-ledger" title="hiero-ledger: 6 PR(s)"><img src="https://github.com/hiero-ledger.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="hiero-ledger"/></a>
-<a href="https://github.com/jenkins-infra" title="jenkins-infra: 5 PR(s)"><img src="https://github.com/jenkins-infra.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="jenkins-infra"/></a>
-<a href="https://github.com/github" title="github: 4 PR(s)"><img src="https://github.com/github.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="github"/></a>
-<a href="https://github.com/AOSSIE-Org" title="AOSSIE-Org: 1 PR(s)"><img src="https://github.com/AOSSIE-Org.png?size=48" width="48" height="48" style="border-radius:8px;margin:4px" alt="AOSSIE-Org"/></a>
+<a href="https://github.com/hiero-ledger" title="hiero-ledger: 6 PR(s)"><img src="https://github.com/hiero-ledger.png?size=32" width="32" height="32" style="border-radius:6px;margin:2px" alt="hiero-ledger"/></a>
+<a href="https://github.com/jenkins-infra" title="jenkins-infra: 5 PR(s)"><img src="https://github.com/jenkins-infra.png?size=32" width="32" height="32" style="border-radius:6px;margin:2px" alt="jenkins-infra"/></a>
+<a href="https://github.com/github" title="github: 4 PR(s)"><img src="https://github.com/github.png?size=32" width="32" height="32" style="border-radius:6px;margin:2px" alt="github"/></a>
+<a href="https://github.com/AOSSIE-Org" title="AOSSIE-Org: 1 PR(s)"><img src="https://github.com/AOSSIE-Org.png?size=32" width="32" height="32" style="border-radius:6px;margin:2px" alt="AOSSIE-Org"/></a>
 
 </div>
 
-| Organization | Merged PRs |
-|---|---|
-| [hiero-ledger](https://github.com/hiero-ledger) | 6 |
-| [jenkins-infra](https://github.com/jenkins-infra) | 5 |
-| [github](https://github.com/github) | 4 |
-| [AOSSIE-Org](https://github.com/AOSSIE-Org) | 1 |
-
-#### 🔄 Active Pull Requests · 0 total
-
-- No active PRs found.
-
-#### 🐛 Open Issues · 0 total
-
-- No open issues found.
-
-#### ✔️ Closed Issues · 0 total
-
-- No closed issues found.
-
-_Last updated: Sat Jul 18 12:13:07 UTC 2026_ 
+_{Last updated: Sat Jul 18 13:00:42 UTC 2026}_
 <!--END_SECTION:oss-contributions-->
 
 <div align="center">
