@@ -57,6 +57,11 @@ def get_repo_full_name(item):
 def esc(s):
     return html.escape(s)
 
+def clean_title(title, max_len=68):
+    if len(title) > max_len:
+        return title[:max_len-3] + "..."
+    return title
+
 def build_svg_rows(merged_total, sorted_orgs, active_items, open_items, closed_items):
     orgs_str_list = [f"{org} ({count})" for org, count in sorted_orgs]
     orgs_details = ", ".join(orgs_str_list) if orgs_str_list else "None"
@@ -79,9 +84,8 @@ def build_svg_rows(merged_total, sorted_orgs, active_items, open_items, closed_i
     if active_items:
         rows.append(("gap",))
         rows.append(("sec", "Active Pull Requests"))
-        # Show up to 3 recent active PRs
         for item in active_items[:3]:
-            title = item.get("title", "Untitled PR")
+            title = clean_title(item.get("title", "Untitled PR"))
             repo = get_repo_full_name(item)
             rows.append(("bul", f"{title} (in {repo})"))
 
@@ -89,9 +93,8 @@ def build_svg_rows(merged_total, sorted_orgs, active_items, open_items, closed_i
     if open_items:
         rows.append(("gap",))
         rows.append(("sec", "Open Issues"))
-        # Show up to 2 open issues
         for item in open_items[:2]:
-            title = item.get("title", "Untitled Issue")
+            title = clean_title(item.get("title", "Untitled Issue"))
             repo = get_repo_full_name(item)
             rows.append(("bul", f"{title} (in {repo})"))
 
