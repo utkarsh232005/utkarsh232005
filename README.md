@@ -1,73 +1,34 @@
-<h1 align="center">👋 Hey there, I'm Utkarsh Patrikar!</h1>
-<h3 align="center">Full-Stack Developer | DevOps & Cloud Enthusiast | Tech Explorer 🌍</h3>
+<div align="center">
 
-<p align="center">
-  <a href="https://linkedin.com/in/utkarsh-patrikar">LinkedIn</a> •
-  <a href="mailto:utkarshpatrikar@gmail.com">Email</a> •
-  <a href="https://utkarshpatrikar.me">Portfolio</a>
-</p>
+<!-- hero: monochrome ASCII portrait (types in) beside a neofetch-style info
+     panel. regenerate portrait: python scripts/prep_photo.py <photo> &&
+     python scripts/make_ascii_svg.py ; info panel: python scripts/make_info_card.py -->
 
----
+<!-- animated contribution graph: real data, boxes reveal cell by cell
+     (regenerated daily by .github/workflows/update-profile-art.yml) -->
 
-## 👨‍💻 About Me
+<h3><code>utkarsh@github ~ $ ./contributions.sh</code></h3>
 
-- 💡 Passionate **Software Developer** focused on **Web Development** with a growing love for **DevOps & Cloud**.
-- 🔭 Working on **Full-Stack Web Apps & Cloud-Based Solutions**.
-- ⚙️ Exploring **Docker, Kubernetes, AWS, and CI/CD workflows**.
-- 🌱 Always learning and improving in **modern web & cloud technologies**.
+<img src="./contrib-heatmap.svg" width="860" alt="Utkarsh's GitHub contribution graph — auto-refreshed daily" />
 
----
+<br>
+<br>
 
-## 👁️ Profile Views & Visitor Count
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=utkarsh232005&label=Profile%20views&color=0e75b6&style=flat" />
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=utkarsh232005.visitor-badge" />
-</p>
-
----
-
-## 🧰 Tech & Tools
+<h3><code>utkarsh@github ~ $ whoami</code></h3>
 
 <table>
-  <tr>
-    <td><strong>Languages</strong></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=js,ts,python,html,css" height="32" />
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Frameworks</strong></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=react,next,tailwind,nodejs" height="32" />
-    </td>
-  </tr>
-  <tr>
-    <td><strong>DevOps</strong></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,linux,nginx" height="32" />
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Cloud</strong></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=aws,gcp" height="32" />
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Databases</strong></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=mongodb,mysql,firebase" height="32" />
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Tools</strong></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=git,vscode,figma" height="32" />
-    </td>
-  </tr>
+<tr>
+<td valign="top"><img src="./utkarsh-ascii.svg" width="370" alt="Utkarsh Patrikar — ASCII portrait" /></td>
+<td valign="top"><img src="./info-card.svg" width="490" alt="Utkarsh Patrikar — role, stack, highlights" /></td>
+</tr>
 </table>
 
----
+<br>
+<br>
+
+<h3><code>utkarsh@github ~ $ ./oss-dashboard.sh</code></h3>
+
+</div>
 
 <!--START_SECTION:oss-contributions-->
 ### 🚀 Recent Open Source Contributions
@@ -105,13 +66,18 @@
 _Last updated: Sat Jul 18 12:13:07 UTC 2026_ 
 <!--END_SECTION:oss-contributions-->
 
----
+<div align="center">
 
-## 🔥 GitHub Streak
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=utkarsh232005&theme=tokyonight&hide_border=true" />
-</p>
+<br>
 
----
+<h3><code>utkarsh@github ~ $ ./links.sh</code></h3>
 
-<p align="center">🚀 "Code, Deploy, Automate & Scale!" 🚀</p>
+<p><b>Full-Stack Developer · DevOps & Cloud Enthusiast · Tech Explorer 🌍</b></p>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-utkarshpatrikar.me-0d1117?style=for-the-badge&logo=vercel&logoColor=white)](https://utkarshpatrikar.me)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-utkarsh--patrikar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/utkarsh-patrikar)
+[![Email](https://img.shields.io/badge/Email-utkarshpatrikar-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:utkarshpatrikar@gmail.com)
+
+<br>
+
+</div>
