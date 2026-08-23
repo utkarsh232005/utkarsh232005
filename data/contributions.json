@@ -1,22 +1,22 @@
 {
   "username": "utkarsh232005",
-  "generated_at": "2026-08-22T06:30:31Z",
+  "generated_at": "2026-08-23T06:30:36Z",
   "range": {
-    "start": "2025-08-17",
-    "end": "2026-08-22"
+    "start": "2025-08-24",
+    "end": "2026-08-23"
   },
-  "total_contributions": 2509,
-  "active_days": 260,
-  "avg_per_active_day": 9.7,
+  "total_contributions": 2430,
+  "active_days": 255,
+  "avg_per_active_day": 9.5,
   "current_streak": {
-    "length": 54,
+    "length": 55,
     "start": "2026-06-30",
-    "end": "2026-08-22"
+    "end": "2026-08-23"
   },
   "longest_streak": {
-    "length": 54,
+    "length": 55,
     "start": "2026-06-30",
-    "end": "2026-08-22"
+    "end": "2026-08-23"
   },
   "best_day": {
     "date": "2026-07-26",
@@ -25,7 +25,7 @@
   "monthly": [
     {
       "month": "2025-08",
-      "total": 181
+      "total": 61
     },
     {
       "month": "2025-09",
@@ -73,38 +73,10 @@
     },
     {
       "month": "2026-08",
-      "total": 88
+      "total": 129
     }
   ],
   "days": [
-    {
-      "date": "2025-08-17",
-      "count": 7
-    },
-    {
-      "date": "2025-08-18",
-      "count": 16
-    },
-    {
-      "date": "2025-08-19",
-      "count": 12
-    },
-    {
-      "date": "2025-08-20",
-      "count": 41
-    },
-    {
-      "date": "2025-08-21",
-      "count": 20
-    },
-    {
-      "date": "2025-08-22",
-      "count": 24
-    },
-    {
-      "date": "2025-08-23",
-      "count": 0
-    },
     {
       "date": "2025-08-24",
       "count": 28
@@ -1539,11 +1511,11 @@
     },
     {
       "date": "2026-08-17",
-      "count": 3
+      "count": 13
     },
     {
       "date": "2026-08-18",
-      "count": 13
+      "count": 22
     },
     {
       "date": "2026-08-19",
@@ -1559,7 +1531,11 @@
     },
     {
       "date": "2026-08-22",
-      "count": 1
+      "count": 11
+    },
+    {
+      "date": "2026-08-23",
+      "count": 12
     }
   ]
 }
