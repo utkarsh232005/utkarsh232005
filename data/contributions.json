@@ -1,22 +1,22 @@
 {
   "username": "utkarsh232005",
-  "generated_at": "2026-11-25T06:33:48Z",
+  "generated_at": "2026-11-26T06:33:56Z",
   "range": {
     "start": "2025-11-23",
+    "end": "2026-11-26"
+  },
+  "total_contributions": 3066,
+  "active_days": 328,
+  "avg_per_active_day": 9.3,
+  "current_streak": {
+    "length": 149,
+    "start": "2026-06-30",
     "end": "2026-11-25"
   },
-  "total_contributions": 3065,
-  "active_days": 327,
-  "avg_per_active_day": 9.4,
-  "current_streak": {
-    "length": 148,
-    "start": "2026-06-30",
-    "end": "2026-11-24"
-  },
   "longest_streak": {
-    "length": 148,
+    "length": 149,
     "start": "2026-06-30",
-    "end": "2026-11-24"
+    "end": "2026-11-25"
   },
   "best_day": {
     "date": "2026-11-13",
@@ -73,7 +73,7 @@
     },
     {
       "month": "2026-11",
-      "total": 151
+      "total": 152
     }
   ],
   "days": [
@@ -1547,6 +1547,10 @@
     },
     {
       "date": "2026-11-25",
+      "count": 1
+    },
+    {
+      "date": "2026-11-26",
       "count": 0
     }
   ]
